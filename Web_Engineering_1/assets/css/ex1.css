@@ -118,6 +118,41 @@ huangjie part begin
 }
 
 
+
+
+
+
+#h_opening_hour_contracts{
+    display: inline-block;
+    width :100%;
+    text-align:center;
+    
+}
+
+#h_opening_hour_contracts div{
+    display: inline-block;
+    width :30%;
+    text-align:center;
+    
+}
+#h_copy {
+    padding : 0;
+    text-align:center;
+}
+#h_copy li{
+    display: inline-block;
+    text-align:center;
+    padding : 0;
+    border:none;
+}
+/*
+#h_opening_hour_contracts div{
+    display: inline;
+    text-align:center;
+   
+    
+}
+*/
 /*-------------------------
 huangjie part end
 */
