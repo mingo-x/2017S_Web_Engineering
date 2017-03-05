@@ -143,15 +143,12 @@ huangjie part begin
 }
 
 
-
-
 #h_opening_hour_contracts{
     display: inline-block;
     width :100%;
     text-align:center;
     
 }
-
 #h_opening_hour_contracts div{
     display: inline-block;
     width :30%;
