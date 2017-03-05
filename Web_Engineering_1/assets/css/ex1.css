@@ -13,6 +13,11 @@ body {
 	background-color: rgba(248, 248, 248, 1.0);
 }
 
+#header{
+	/*position: relative;*/
+	/*text-align: center;*/
+}
+
 #header a:link, a:active, a:hover, a:visited {
 	text-decoration: none;
 	color: black;
@@ -43,15 +48,26 @@ body {
 	z-index: 5;
 }
 
-#cover img {
-	text-align: center;
+#cover {
 	position: relative;
+	text-align: center;
+}
+
+#cover img {
+	
+	/*position: relative;*/
 	top: -30px;
-	width: 101.3%;
+	width: 100%;
 }
 
 #title {
+	/*margin: 0 auto;*/
+	/*margin-left: 30%;*/
+	/*margin-right: 30%;*/
 	text-align: center;
+	position: absolute;
+	top: 300px;
+	width: 100%;
 }
 
 #title h1 {
@@ -61,14 +77,14 @@ body {
 	color: white;
 	background-color: black;
 	width: 100%;
-	position: absolute;
-	top: 300px;
+	/*position: absolute;*/
+	/*top: 300px;*/
 }
 
 #title a {
 	text-align: center;
-	position: absolute;
-	top: 500px;
+	
+	
 	background-color: rgba(0, 0, 0, 0.8);
 	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
@@ -301,10 +317,26 @@ Yanping part begin
 	clear: both;
 }
 
-.event {
-	display: inline-block;
+#events{
+	text-align: center;
 }
 
+.event {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+.event img {
+	height: 80px;
+	max-width: 80px;
+	border: 1px solid white;
+}
+
+.event a{
+	text-decoration: none;
+	color: white;
+}
 /*-------------------------
 Yanping part end
 */
