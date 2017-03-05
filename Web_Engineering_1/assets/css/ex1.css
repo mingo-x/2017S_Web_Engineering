@@ -23,25 +23,26 @@ body {
 }
 
 #navigation li {
-	display: inline;
+	display: inline-block;
 
-	font-family: arial;
+	font-family: 'Kreon';
 	font-size: 10pt;
 	color: black;
 
-	width: 1000px;
-	height: 24px;
+	width: 200px;
+	height: 100px;
 
-	margin: 10px;
-	border: 30px solid;
+	margin: 0px;
+	border: 1px solid;
 	padding: 0px;
 }
 
 #navigation img {
-	width: 100px;
+	width: 10px;
 }
 
 #header img {
+	text-align: center;
 	position: relative;
 	width: 100%;
 }
