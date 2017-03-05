@@ -18,7 +18,12 @@ body {
 	color: black;
 }
 
+#navigation {
+
+}
+
 #navigation ul {
+	padding: 0;
 	text-align: center;
 }
 
