@@ -305,7 +305,7 @@ Yanping part begin
 	float: right;
 	margin-right: 11%;
 	text-align: right;
-	width: %;
+	width: 55%;
 	display: inline-block;
 }
 
@@ -317,7 +317,7 @@ Yanping part begin
 }
 
 #menu-imgs img{
-	border-radius: 20px;
+	border-radius: 10px;
 	max-width: 280px;
 	height: 200px;
 }
