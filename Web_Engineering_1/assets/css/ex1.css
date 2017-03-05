@@ -64,6 +64,20 @@ a:visited {
 huangjie part begin
 */
 
+.h_word h2{
+    font-family: serif;
+    font-size: 50pt;
+    color: black;
+    text-align:center;
+}
+.h_word p{
+    font-family: serif;
+    font-size: 15pt;
+    color: black;
+    text-align:center;
+}
+
+
 
 /*-------------------------
 huangjie part end
