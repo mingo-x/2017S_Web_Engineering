@@ -13,7 +13,7 @@ body {
 	background-color: rgba(248, 248, 248, 1.0);
 }
 
-#header a:link, #header a:active, #header a:hover, #header a:visited {
+#navigation a:link, #navigation a:active, #navigation a:hover, #navigation a:visited {
 	text-decoration: none;
 	color: black;
 }
@@ -67,6 +67,11 @@ body {
 	color: white;
 	background-color: black;
 	width: 100%;
+}
+
+#title a:link, #title a:active, #title a:hover, #title a:visited {
+	text-decoration: none;
+	color: white;
 }
 
 #title a {
