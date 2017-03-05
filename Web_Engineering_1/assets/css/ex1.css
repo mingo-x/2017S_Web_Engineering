@@ -137,6 +137,41 @@ huangjie part begin
     
 }
 
+
+
+
+#h_opening_hour_contracts{
+    display: inline-block;
+    width :100%;
+    text-align:center;
+    
+}
+
+#h_opening_hour_contracts div{
+    display: inline-block;
+    width :30%;
+    text-align:center;
+    
+}
+#h_copy {
+    padding : 0;
+    text-align:center;
+}
+#h_copy li{
+    display: inline-block;
+    text-align:center;
+    padding : 0;
+    border:none;
+}
+/*
+#h_opening_hour_contracts div{
+    display: inline;
+    text-align:center;
+   
+    
+}
+*/
+
 /*-------------------------
 huangjie part end
 */
@@ -153,24 +188,28 @@ Yanping part begin
 }
 
 #memu-imgs div{
-	display: inline;
+	/*display: inline;*/
 	overflow: hidden;
 	position: relative;
 }
 
 #memu-imgs img{
 	border-radius: 20px;
-	max-width: 200px;
+	max-width: 300px;
 	/*width: 100px;*/
 	/*height: 50px;*/
 }
 
 
 .memu-img-title{
+	color: rgb(256,256,256);
+	background-color: rgba(0,0,0,0.5);
 	position: absolute;
-	bottom: 2em;
-	left: 1em;
+	bottom: 4em;
+	width: 300px;
+	/*left: 1em;*/
 	text-align: left;
+
 }
 /*-------------------------
 Yanping part end
