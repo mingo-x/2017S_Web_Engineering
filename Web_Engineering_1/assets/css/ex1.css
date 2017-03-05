@@ -168,14 +168,53 @@ huangjie part begin
     padding : 0;
     border:none;
 }
-/*
-#h_opening_hour_contracts div{
-    display: inline;
+
+
+#h_book {
+    background-image: url(../../images/book-table.jpg);
+    background-position:center;
+    display: inline-block;
+    margin:0;
+    width:100%;
     text-align:center;
-   
-    
 }
-*/
+#h_book2{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:40%;
+    
+    margin:0;
+    text-align:center;
+}
+
+#h_namephone div{
+    display: inline-block;
+    width :45%;
+}
+#h_datatime div{
+    display: inline-block;
+    width :45%;
+}
+
+#h_book2 h2{
+   color :white;
+}
+#h_book2 input{
+    opacity:1;
+    display: inline-block;
+    width :100%;
+    height: 30px;
+    border:none;
+    margin:5px;
+}
+#h_book2 textarea{
+    
+    width :90%;
+    height: 200px;
+}
+#h_book2 [type=submit]{
+    width :30%;
+}
 
 /*-------------------------
 huangjie part end
