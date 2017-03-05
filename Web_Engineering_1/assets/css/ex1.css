@@ -244,7 +244,7 @@ Yanping part begin
 	color: white;
 }
 
-#event-header{
+.event-header{
 	text-align: center;
 }
 
@@ -323,19 +323,25 @@ Yanping part begin
 
 .event {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 	text-align: center;
+	margin:15px;
 }
 
 .event img {
-	height: 80px;
-	max-width: 80px;
+	height: 100px;
+	max-width: 100px;
 	border: 1px solid white;
 }
 
 .event a{
 	text-decoration: none;
 	color: white;
+}
+
+.event p a{
+	border-bottom: 1px dashed white;
+	font-weight: bold;
 }
 /*-------------------------
 Yanping part end
