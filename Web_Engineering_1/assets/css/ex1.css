@@ -1,3 +1,7 @@
+:root{
+	--co:'aaa';
+}
+
 body {
 	background-color: rgba(248, 248, 248, 1.0);
 }
@@ -116,4 +120,13 @@ huangjie part begin
 
 /*-------------------------
 huangjie part end
+*/
+
+/*-------------------------
+Yanping part begin
+*/
+
+
+/*-------------------------
+Yanping part end
 */
