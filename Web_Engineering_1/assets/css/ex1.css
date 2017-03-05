@@ -268,7 +268,7 @@ Yanping part begin
 	color: white;
 }
 
-#menu-texts a:visited, a:hover, a:active{
+#menu-texts a:visited, #menu-texts a:hover, #menu-texts a:active{
 	background-color: #365529;
 }
 
