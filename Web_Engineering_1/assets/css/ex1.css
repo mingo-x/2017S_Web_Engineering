@@ -1,6 +1,6 @@
 :root{
-	/* --varname:value; */
-	--back-grey:#443333;
+	/* --var-name: value; */
+	--back-grey: #443333;
 }
 
 /*
@@ -13,12 +13,7 @@ body {
 	background-color: rgba(248, 248, 248, 1.0);
 }
 
-#header{
-	/*position: relative;*/
-	/*text-align: center;*/
-}
-
-#header a:link, a:active, a:hover, a:visited {
+#header a:link, #header a:active, #header a:hover, #header a:visited {
 	text-decoration: none;
 	color: black;
 }
@@ -35,7 +30,7 @@ body {
 	color: black;
 
 	width: 200px;
-	height: 80px;
+	height: 20px;
 	margin: 0px;
 	border: 0px solid;
 	padding: 0px;
@@ -43,7 +38,7 @@ body {
 
 #navigation img {
 	position: relative;
-	top: 80px;
+	top: 60px;
 	width: 120px;
 	z-index: 5;
 }
@@ -54,19 +49,14 @@ body {
 }
 
 #cover img {
-	
-	/*position: relative;*/
 	top: -30px;
 	width: 100%;
 }
 
 #title {
-	/*margin: 0 auto;*/
-	/*margin-left: 30%;*/
-	/*margin-right: 30%;*/
 	text-align: center;
 	position: absolute;
-	top: 300px;
+	top: 120px;
 	width: 100%;
 }
 
@@ -77,19 +67,16 @@ body {
 	color: white;
 	background-color: black;
 	width: 100%;
-	/*position: absolute;*/
-	/*top: 300px;*/
 }
 
 #title a {
 	text-align: center;
-	
-	
+
 	background-color: rgba(0, 0, 0, 0.8);
 	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
-	width: 160px;
-	padding: 20px;
+	width: 50px;
+	padding: 15px 50px;
 	color: white;
 	border: 1px solid;
 	border-radius: 5px;
