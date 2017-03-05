@@ -98,16 +98,18 @@ huangjie part begin
 */
 
 .h_word h2{
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 50pt;
-    color: black;
-    text-align:center;
+    color: rgba(127, 127, 127, 1.0);
+    text-align: center;
 }
 .h_word p{
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15pt;
-    color: black;
-    text-align:center;
+    color: rgba(127, 127, 127, 1.0);
+    text-align: center;
+    padding: 0px 100px 80px 100px;
+    line-height: 150%;
 }
 
 #h_contact {
@@ -221,18 +223,16 @@ huangjie part begin
     width :30%;
 }
 
-
-
 #h_high_quality{
     background-image: url(../../images/small1.jpg);
-    background-position:center;
+    background-position: center;
     display: inline-block;
-    margin:0;
-    width:100%;
-    text-align:center;
-    
+    margin: 0;
+    width: 100%;
+    text-align: center;
     background-size: cover;
 }
+
 #h_high_quality h2{
     color : white;
     font-size: 50pt;
