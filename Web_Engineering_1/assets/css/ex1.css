@@ -305,7 +305,7 @@ Yanping part begin
 	float: right;
 	margin-right: 11%;
 	text-align: right;
-	width: 50%;
+	width: %;
 	display: inline-block;
 }
 
@@ -345,6 +345,7 @@ Yanping part begin
 .event-header{
 	text-align: center;
 	font-size: 15pt;
+	font-weight: bold;
 }
 
 .events{
@@ -353,7 +354,7 @@ Yanping part begin
 
 .event {
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	height: 330px;
 	text-align: center;
 	margin:15px;
