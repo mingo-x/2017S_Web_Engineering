@@ -216,6 +216,30 @@ huangjie part begin
     width :30%;
 }
 
+
+
+#h_high_quality{
+    background-image: url(../../images/small1.jpg);
+    background-position:center;
+    display: inline-block;
+    margin:0;
+    width:100%;
+    text-align:center;
+    
+    background-size: cover;
+}
+#h_high_quality h2{
+    color : white;
+    font-size: 50pt;
+    text-shadow: black 0px 0px 2px;
+    
+}
+#h_high_quality p{
+    color : white;
+    font-size: 15pt;
+    text-shadow: black 0px 0px 2px;
+    
+}
 /*-------------------------
 huangjie part end
 */
@@ -231,7 +255,7 @@ Yanping part begin
 	color: white;
 }
 
-#event-header{
+.event-header{
 	text-align: center;
 }
 
@@ -310,19 +334,25 @@ Yanping part begin
 
 .event {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 	text-align: center;
+	margin:15px;
 }
 
 .event img {
-	height: 80px;
-	max-width: 80px;
+	height: 100px;
+	max-width: 100px;
 	border: 1px solid white;
 }
 
 .event a{
 	text-decoration: none;
 	color: white;
+}
+
+.event p a{
+	border-bottom: 1px dashed white;
+	font-weight: bold;
 }
 /*-------------------------
 Yanping part end
