@@ -231,6 +231,10 @@ Yanping part begin
 	color: white;
 }
 
+#event-header{
+	text-align: center;
+}
+
 #menu-texts{
 	margin-left: 30px;
 	padding-left: 20px;
@@ -253,6 +257,10 @@ Yanping part begin
 
 #menu-texts a:visited, a:hover, a:active{
 	background-color: #365529;
+}
+
+#menu-texts p{
+	text-align: left;
 }
 
 #menu-imgs{
@@ -296,6 +304,9 @@ Yanping part begin
 	clear: both;
 }
 
+.event {
+	display: inline-block;
+}
 
 /*-------------------------
 Yanping part end
