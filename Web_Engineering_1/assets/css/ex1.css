@@ -1,64 +1,83 @@
 :root{
-	--co:'aaa';
+	/* --varname:value; */
+	--back-grey:#443333;
 }
+
+/*
+*********************
+*** Zuoyue's Part ***
+*********************
+*/
 
 body {
 	background-color: rgba(248, 248, 248, 1.0);
 }
 
-a:link {
+#lizuoyue {
+	text-align: center;
+}
+
+#lizuoyue a:link, a:active, a:hover, a:visited {
 	text-decoration: none;
 	color: black;
 }
 
-a:active {
-	text-decoration: none;
-	color: black;
-}
+#navigation li {
+	display: inline;
 
-a:hover {
-	text-decoration: none;
+	font-family: arial;
+	font-size: 10pt;
 	color: black;
-}
 
-a:visited {
-	text-decoration: none;
-	color: black;
-}
-
-#nav li {
-	display: inline-block;
-	font-family: times;
-	font-size: 20pt;
-	color: black;
+	width: 1000px;
+	height: 24px;
 
 	margin: 10px;
-	border: 10px solid #683;
-	padding: 10px;
-	width: 40px;
-	height: 40px;
+	border: 30px solid;
+	padding: 0px;
 }
 
-#nav img {
+#navigation img {
 	width: 100px;
 }
 
+#header img {
+	position: relative;
+	width: 100%;
+}
+
 #title h1 {
-	font-family: serif;
-	font-size: 20pt;
+	text-align: center;
+	position: absolute;
+	top: 360px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48pt;
 	color: white;
 	background-color: black;
+	width: 100%;
 }
 
 #title a {
+	text-align: center;
+
+
+	position: absolute;
+	top: 500px;
 	background-color: rgba(0, 0, 0, 0.8);
-	font-family: serif;
-	font-size: 20pt;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	width: 160px;
+	padding: 20px;
 	color: white;
+	border: 1px solid;
+	border-radius: 5px;
 }
 
-
-
+/*
+*********************
+*** Zuoyue's Part ***
+*********************
+*/
 
 /*-------------------------
 huangjie part begin
@@ -120,8 +139,6 @@ huangjie part begin
 
 
 
-
-
 #h_opening_hour_contracts{
     display: inline-block;
     width :100%;
@@ -153,6 +170,7 @@ huangjie part begin
     
 }
 */
+
 /*-------------------------
 huangjie part end
 */
@@ -160,8 +178,38 @@ huangjie part end
 /*-------------------------
 Yanping part begin
 */
+.back-grey {
+	background-color: var(--back-grey);
+}
+
+#memu-imgs {
+
+}
+
+#memu-imgs div{
+	/*display: inline;*/
+	overflow: hidden;
+	position: relative;
+}
+
+#memu-imgs img{
+	border-radius: 20px;
+	max-width: 300px;
+	/*width: 100px;*/
+	/*height: 50px;*/
+}
 
 
+.memu-img-title{
+	color: rgb(256,256,256);
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 4em;
+	width: 300px;
+	/*left: 1em;*/
+	text-align: left;
+
+}
 /*-------------------------
 Yanping part end
 */
