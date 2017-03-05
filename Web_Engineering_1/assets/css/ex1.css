@@ -145,36 +145,78 @@ Yanping part begin
 */
 .back-grey {
 	background-color: var(--back-grey);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+	color: white;
 }
 
-#memu-imgs {
-
+#menu-texts{
+	margin-left: 30px;
+	padding-left: 20px;
+	width: 30%;
+	display: inline-block;
+	color: white;
+	text-align: center;
 }
 
-#memu-imgs div{
-	/*display: inline;*/
+#menu-texts a{
+	display: block;
+	border: 1px solid white;
+	width: 30%;
+	margin: 0 auto;
+	padding: 1em 2em;
+	border-radius: 4px;
+	text-decoration: none;
+	color: white;
+}
+
+#menu-texts a:visited, a:hover, a:active{
+	background-color: #365529;
+}
+
+#menu-imgs{
+	float: right;
+	margin-right: 30px;
+	text-align: right;
+	width: 60%;
+	display: inline-block;
+}
+
+.menu-img{
+	margin: 20px;
+	display: inline-block;
 	overflow: hidden;
 	position: relative;
 }
 
-#memu-imgs img{
+#menu-imgs img{
 	border-radius: 20px;
-	max-width: 300px;
-	/*width: 100px;*/
-	/*height: 50px;*/
+	max-width: 280px;
+	height: 200px;
 }
 
-
-.memu-img-title{
-	color: rgb(256,256,256);
+.menu-img-title{
 	background-color: rgba(0,0,0,0.5);
 	position: absolute;
-	bottom: 4em;
+	bottom: 2em;
 	width: 300px;
-	/*left: 1em;*/
+	height: 2em;
 	text-align: left;
-
 }
+
+.menu-img-title a{
+	color: white;
+	text-decoration: none;
+	border-bottom:1px dashed white;
+	margin-left: 1em;
+}
+
+.x-clear {
+	clear: both;
+}
+
+
 /*-------------------------
 Yanping part end
 */
