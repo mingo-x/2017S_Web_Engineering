@@ -386,6 +386,11 @@ Yanping part begin
 	margin: 0 auto;
 
 }
+
+.x-button a{
+	text-decoration: none;
+	color: white;
+}
 /*-------------------------
 Yanping part end
 */
