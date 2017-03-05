@@ -1,5 +1,6 @@
 :root{
-	--co:'aaa';
+	/* --varname:value; */
+	--back-grey:#443333;
 }
 
 body {
@@ -86,8 +87,34 @@ huangjie part end
 /*-------------------------
 Yanping part begin
 */
+.back-grey {
+	background-color: var(--back-grey);
+}
+
+#memu-imgs {
+
+}
+
+#memu-imgs div{
+	display: inline;
+	overflow: hidden;
+	position: relative;
+}
+
+#memu-imgs img{
+	border-radius: 20px;
+	max-width: 200px;
+	/*width: 100px;*/
+	/*height: 50px;*/
+}
 
 
+.memu-img-title{
+	position: absolute;
+	bottom: 2em;
+	left: 1em;
+	text-align: left;
+}
 /*-------------------------
 Yanping part end
 */
