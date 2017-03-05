@@ -333,7 +333,7 @@ Yanping part begin
 	clear: both;
 }
 
-#events{
+.events{
 	text-align: center;
 }
 
@@ -358,6 +358,43 @@ Yanping part begin
 .event p a{
 	border-bottom: 1px dashed white;
 	font-weight: bold;
+}
+
+.past-event {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	margin:15px;
+}
+
+.past-event img {
+	height: 70px;
+	max-width: 70px;
+	border: 1px solid white;
+}
+
+.past-event a{
+	text-decoration: none;
+	color: white;
+}
+
+.x-button{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	width: 160px;
+	padding: 15px 50px;
+	color: white;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 0 auto;
+
+}
+
+.x-button a{
+	text-decoration: none;
+	color: white;
 }
 /*-------------------------
 Yanping part end
