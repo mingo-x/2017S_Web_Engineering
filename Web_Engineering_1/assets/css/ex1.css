@@ -112,18 +112,26 @@ huangjie part begin
 #h_contact {
     width: 100%;
     text-align:center;
-    
-    
+    background-color: rgba(248, 248, 248, 1);
 }
 .h_nameemail {
     display: inline;
     width:100%;
-    margin: 1px;
+   
+   
+    
 }
 .h_nameemail input{
-    margin: 1%;
-    width: 29%;
+    
+    width: 30%;
 	height: 40px;
+	border-radius: 4px;
+	font-size: 15pt;
+	background-color: rgba(248, 248, 248, 1);
+	border-width:1px;
+    border-color : rgba(230, 230, 230, 1);
+    border-style:solid;
+    padding-left : 10px;
 }
 
 
@@ -131,6 +139,14 @@ huangjie part begin
     
     width :60%;
     height: 300px;
+    border-radius: 4px;
+    font-size: 15pt;
+    border-width:1px;
+    border-color : rgba(230, 230, 230, 1);
+    
+    background-color: rgba(248, 248, 248, 1);
+    padding-left : 10px;
+    padding-top : 10px;
 }
 #h_sendreset{
     padding: 0px;
