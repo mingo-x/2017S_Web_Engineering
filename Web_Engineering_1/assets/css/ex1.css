@@ -1,5 +1,7 @@
 :root{
-	/* --var-name: value; */
+	/*
+	--var-name: value;
+	*/
 	--back-grey: #443333;
 }
 
@@ -10,36 +12,35 @@
 */
 
 body {
+	margin: 0px 0px 0px 0px;
 	background-color: rgba(255, 255, 255, 1.0);
 	font-family: 'Roboto', sans-serif;
 }
-#navigation{
-    background-color: rgba(248, 248, 248, 1.0);
-   
+
+#navigation {
+	padding: 0px 0px 20px 0px;
+	background-color: rgba(248, 248, 248, 1.0);  
 }
+
 #navigation a:link, #navigation a:active, #navigation a:hover, #navigation a:visited {
 	text-decoration: none;
-	
 	color: black;
 }
 
 #navigation ul {
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	background-color: rgba(248, 248, 248, 1.0);
-	
-	
 	text-align: center;
 }
 
 #navigation li {
 	display: inline-block;
-
 	font-family: 'Kreon';
 	font-size: 24pt;
 	color: black;
-
 	width: 200px;
-	height: 20px;
+	height: 40px;
 	margin: 0px;
 	border: 0px solid;
 	padding: 0px;
@@ -53,12 +54,12 @@ body {
 }
 
 #cover {
+	top : -10px;
 	position: relative;
 	text-align: center;
 }
 
 #cover img {
-	top: -30px;
 	width: 100%;
 }
 
@@ -97,288 +98,299 @@ body {
 *************************
 */
 
-/*-------------------------
-huangjie part begin
+/*
+Huang Jie's Part Begin
 */
 
-.h_word h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 50pt;
-    color: rgba(127, 127, 127, 1.0);
-    text-align: center;
+.h_word h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50pt;
+	color: rgba(127, 127, 127, 1.0);
+	text-align: center;
 }
+
 .h_word p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15pt;
-    color: rgba(127, 127, 127, 1.0);
-    text-align: center;
-    padding: 0px 100px 80px 100px;
-    line-height: 150%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+	color: rgba(127, 127, 127, 1.0);
+	text-align: center;
+	padding: 0px 100px 80px 100px;
+	line-height: 150%;
 }
 
 #h_word_contact  h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 50pt;
-    color: rgba(127, 127, 127, 1.0);
-    text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50pt;
+	color: rgba(127, 127, 127, 1.0);
+	text-align: center;
 }
+
 #h_word_contact p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15pt;
-    color: rgba(127, 127, 127, 1.0);
-    text-align: center;
-    padding: 0px 100px 40px 100px;
-    line-height: 150%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+	color: rgba(127, 127, 127, 1.0);
+	text-align: center;
+	padding: 0px 100px 40px 100px;
+	line-height: 150%;
 }
 #h_contact_father{
-    text-align:center;
-    margin:0px 0px 60px 0px;
+	text-align:center;
+	margin:0px 0px 60px 0px;
 }
 
 #h_contact {
-    width: 60%;
-    text-align:center;
-    display: inline-block;
-    margin:0;
+	width: 60%;
+	text-align:center;
+	display: inline-block;
+	margin:0;
 }
 
 #h_name {
-    float:left;
+	float:left;
 }
 
-
 #h_email {
-    float:right;
+	float:right;
 }
 
 .h_nameemail {
-    display: inline-block;
-    width:47%;  
+	display: inline-block;
+	width:47%;  
 }
+
 .h_nameemail input{
-    
-    width: 100%;
-    
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
 	height: 40px;
 	border-radius: 4px;
 	font-size: 15pt;
 	background-color: rgba(248, 248, 248, 1);
 	border-width:1px;
-    border-color : rgba(230, 230, 230, 1);
-    border-style:solid;
-    padding-left : 10px;
+	border-color : rgba(230, 230, 230, 1);
+	border-style:solid;
+	padding-left : 10px;
 }
+
 #h_message{
-    display: inline-block;
-    width :100%;
+	display: inline-block;
+	width :100%;
 }
 
 #h_message textarea{
-    
-    width :100%;
-    height: 300px;
-    margin-top:3%;
-    border-radius: 4px;
-    font-size: 15pt;
-    border-width:1px;
-    border-color : rgba(230, 230, 230, 1);
-    
-    background-color: rgba(248, 248, 248, 1);
-    padding-left : 10px;
-    padding-top : 10px;
+
+	width :100%;
+	height: 300px;
+	margin-top:3%;
+	border-radius: 4px;
+	font-size: 15pt;
+	border-width:1px;
+	border-color : rgba(230, 230, 230, 1);
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(248, 248, 248, 1);
+	padding-left : 10px;
+	padding-top : 10px;
 }
 #h_sendreset{
-    
-     padding:0px;
+
+	padding:0px;
 }
 #h_sendreset li{
-   display: inline-block;;
-   width : 30%;
-   margin: 0px 5px 0px 5px;
-   padding:0px;
-   
+	display: inline-block;;
+	width : 30%;
+	margin: 0px 5px 0px 5px;
+	padding:0px;
+
 }
 #h_sendreset input{
-    display: inline-block;
-    margin:0px;
-    width :100%;
-    height: 45px;
-    border:1px;
-    border-color:rgba(230, 230, 230, 1);
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 1);
-    padding:0px;
-    color:rgba(200, 200, 200, 1);
-    border-style: solid;
+	display: inline-block;
+	margin:0px;
+	width :100%;
+	height: 45px;
+	border:1px;
+	border-color:rgba(230, 230, 230, 1);
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 1);
+	padding:0px;
+	color:rgba(200, 200, 200, 1);
+	border-style: solid;
 }
 #h_sendreset input:hover{
-    display: inline-block;
-    margin:0px;
-    width :100%;
-    height: 45px;
-    border:1px;
-    border-color:rgba(230, 230, 230, 1);
-    border-radius: 4px;
-    background-color: rgba(61, 61, 61, 1);
-    padding:0px;
-    color:white;
-    border-style: solid;
+	display: inline-block;
+	margin:0px;
+	width :100%;
+	height: 45px;
+	border:1px;
+	border-color:rgba(230, 230, 230, 1);
+	border-radius: 4px;
+	background-color: rgba(61, 61, 61, 1);
+	padding:0px;
+	color:white;
+	border-style: solid;
 }
 
 #h_opening_hour_contracts{
-    margin-top: 60px;
-    display: inline-block;
-    width :100%;
-    text-align:center;
-    
+	color: rgba(127, 127, 127, 1.0);
+	margin-top: 60px;
+	display: inline-block;
+	width :100%;
+	text-align:center;
+
 }
 #h_opening_hour_contracts div{
-    display: inline-block;
-    width :30%;
-    text-align:center;
-    
+	margin: 0px 30px 0px 30px;
+	display: inline-block;
+	width :20%;
+	text-align:center;
 }
+
+#h_opening_hour_contracts p{
+	text-align: center;
+}
+
 #h_copy {
-    padding : 0;
-    text-align:center;
+	padding: 0;
+	text-align: center;
+	color: rgba(127, 127, 127, 1.0);
 }
 #h_copy li{
-    display: inline-block;
-    text-align:center;
-    padding : 0;
-    border:none;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	color: ;
 }
 
 #h_book {
-    background-image: url(../../images/book-table.jpg);
-    background-position:center;
-    display: inline-block;
-    margin:0;
-    width:100%;
-    text-align:center;
+	background-image: url(../../images/book-table.jpg);
+	background-position:center;
+	display: inline-block;
+	margin:0;
+	width:100%;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 #h_book2{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.5);
-    width:40%;
-    
-    margin:0;
-    text-align:center;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	width:40%;
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	text-align:center;
 }
 
 
 #h_namephone{
-    display: inline-block;
-    width:100%
+	display: inline-block;
+	width:100%
 }
 
 #h_datatime{
-    display: inline-block;
-    width:100%
+	display: inline-block;
+	width:100%
 }
 
 
 #h_name2{
-    float:left;
-    margin-left:5%;
-    margin-bottom:3%;
-    padding-left: 3%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:3%;
+	padding-left: 3%;
 }
 
 #h_phone{
-    float:right;
-    margin-right:5%;
-    margin-bottom:3%;
-    padding-left: 3%;
+	float:right;
+	margin-right:5%;
+	margin-bottom:3%;
+	padding-left: 3%;
 }
 
 #h_date{
-    float:left;
-    margin-left:5%;
-    margin-bottom:3%;
-    padding-left: 3%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:3%;
+	padding-left: 3%;
 }
 
 #h_time{
-    float:right;
-    margin-right:5%;
-    margin-bottom:3%;
-    padding-left: 3%;
+	float:right;
+	margin-right:5%;
+	margin-bottom:3%;
+	padding-left: 3%;
 }
 
 #h_book2 h2{
-   color :white;
-   border:1px;
-   text-shadow: 2px 2px 2px #000000;
+	color :white;
+	border:1px;
+	text-shadow: 2px 2px 2px #000000;
 }
 #h_book2 input{
-    border-radius: 4px;
-    opacity:1;
-    display: inline-block;
-    width :39%;
-    height: 30px;
-    border:none;
-  
-   
+	border-radius: 4px;
+	opacity:1;
+	display: inline-block;
+	width :39%;
+	height: 30px;
+	border:none;
+
+
 }
 #h_book2 textarea{
-    width :84%;
-    height: 200px;
-    border-radius: 4px;
-    color:black;
-    padding:3%
+	width :84%;
+	height: 200px;
+	border-radius: 4px;
+	color:black;
+	padding:3%
 }
 #h_book2 [type=submit]{
-    width :30%;
-    display: inline-block;
-    margin:0px;
-    height: 45px;
-    background-color: rgba(61, 61, 61, 1);
-    padding:0px;
-    color:white;  
+	width :30%;
+	display: inline-block;
+	margin:0px;
+	height: 45px;
+	background-color: rgba(61, 61, 61, 1);
+	padding:0px;
+	color:white;  
 }
 #h_book2 [type=submit]:hover{
-    width :30%;
-    display: inline-block;
-    margin:0px;
-    height: 45px;
-    
-    background-color: white;
-    padding:0px;
-    color:black;  
+	width :30%;
+	display: inline-block;
+	margin:0px;
+	height: 45px;
+
+	background-color: white;
+	padding:0px;
+	color:black;  
 }
+
 #h_aline{
-    height : 15px;
+	height : 15px;
 }
 
 #h_high_quality{
-    background-image: url(../../images/small1.jpg);
-    background-position: center;
-    display: inline-block;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    background-size: cover;
+	background-image: url(../../images/small1.jpg);
+	background-position: -100px 360px;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background-size: 150%;
 }
 
 #h_high_quality h2{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50pt;
-    text-shadow: 2px 2px 2px #000000;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50pt;
+	text-shadow: 2px 2px 2px #000000;
 }
 #h_high_quality p{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15pt;
-    text-shadow: 2px 2px 2px #000000;
-    padding: 0px 100px 80px 100px;
-    line-height: 150%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+	text-shadow: 2px 2px 2px #000000;
+	padding: 0px 100px 80px 100px;
+	line-height: 150%;
 }
 /*-------------------------
-huangjie part end
+Huang Jie part end
 */
 
 /*-------------------------
