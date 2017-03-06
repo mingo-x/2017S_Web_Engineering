@@ -239,12 +239,12 @@ Huang Jie's Part Begin
 #h_opening_hour_contracts div{
 	margin: 0px 30px 0px 30px;
 	display: inline-block;
-	width :20%;
-	text-align:center;
+	width :17%;
+	text-align: center;
 }
 
 #h_opening_hour_contracts p{
-	text-align: center;
+	text-align: left;
 }
 
 #h_copy {
