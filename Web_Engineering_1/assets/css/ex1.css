@@ -10,17 +10,24 @@
 */
 
 body {
-	background-color: rgba(248, 248, 248, 1.0);
+	background-color: rgba(255, 255, 255, 1.0);
 	font-family: 'Roboto', sans-serif;
 }
-
+#navigation{
+    background-color: rgba(248, 248, 248, 1.0);
+   
+}
 #navigation a:link, #navigation a:active, #navigation a:hover, #navigation a:visited {
 	text-decoration: none;
+	
 	color: black;
 }
 
 #navigation ul {
 	padding: 0;
+	background-color: rgba(248, 248, 248, 1.0);
+	
+	
 	text-align: center;
 }
 
@@ -109,21 +116,35 @@ huangjie part begin
     line-height: 150%;
 }
 
-#h_contact {
-    width: 100%;
+#h_contact_father{
     text-align:center;
-    background-color: rgba(248, 248, 248, 1);
+    margin:0;
 }
+
+#h_contact {
+    width: 60%;
+    text-align:center;
+    display: inline-block;
+    margin:0;
+}
+
+#h_name {
+    float:left;
+}
+
+
+#h_email {
+    float:right;
+}
+
 .h_nameemail {
-    display: inline;
-    width:100%;
-   
-   
-    
+    display: inline-block;
+    width:47%;  
 }
 .h_nameemail input{
     
-    width: 30%;
+    width: 100%;
+    
 	height: 40px;
 	border-radius: 4px;
 	font-size: 15pt;
@@ -133,12 +154,16 @@ huangjie part begin
     border-style:solid;
     padding-left : 10px;
 }
-
+#h_message{
+    display: inline-block;
+    width :100%;
+}
 
 #h_message textarea{
     
-    width :60%;
+    width :100%;
     height: 300px;
+    margin-top:3%;
     border-radius: 4px;
     font-size: 15pt;
     border-width:1px;
@@ -149,22 +174,42 @@ huangjie part begin
     padding-top : 10px;
 }
 #h_sendreset{
-    padding: 0px;
+    
+     padding:0px;
 }
 #h_sendreset li{
-   display: inline;
-   width : 40%;
+   display: inline-block;;
+   width : 30%;
+   margin: 0px 5px 0px 5px;
+   padding:0px;
    
 }
 #h_sendreset input{
-    display: inline;
-    width :30%;
-    height: 30px;
-    border:none;
-    
-    
+    display: inline-block;
+    margin:0px;
+    width :100%;
+    height: 45px;
+    border:1px;
+    border-color:rgba(230, 230, 230, 1);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    padding:0px;
+    color:rgba(200, 200, 200, 1);
+    border-style: solid;
 }
-
+#h_sendreset input:hover{
+    display: inline-block;
+    margin:0px;
+    width :100%;
+    height: 45px;
+    border:1px;
+    border-color:rgba(230, 230, 230, 1);
+    border-radius: 4px;
+    background-color: rgba(61, 61, 61, 1);
+    padding:0px;
+    color:white;
+    border-style: solid;
+}
 
 #h_opening_hour_contracts{
     display: inline-block;
@@ -198,6 +243,8 @@ huangjie part begin
     width:100%;
     text-align:center;
 }
+
+
 #h_book2{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
@@ -207,32 +254,89 @@ huangjie part begin
     text-align:center;
 }
 
-#h_namephone div{
+
+#h_namephone{
     display: inline-block;
-    width :45%;
+    width:100%
 }
-#h_datatime div{
+
+#h_datatime{
     display: inline-block;
-    width :45%;
+    width:100%
+}
+
+
+#h_name2{
+    float:left;
+    margin-left:5%;
+    margin-bottom:3%;
+    padding-left: 3%;
+}
+
+#h_phone{
+    float:right;
+    margin-right:5%;
+    margin-bottom:3%;
+    padding-left: 3%;
+}
+
+#h_date{
+    float:left;
+    margin-left:5%;
+    margin-bottom:3%;
+    padding-left: 3%;
+}
+
+#h_time{
+    float:right;
+    margin-right:5%;
+    margin-bottom:3%;
+    padding-left: 3%;
 }
 
 #h_book2 h2{
    color :white;
+   border:1px;
+   text-shadow: 2px 2px 2px #000000;
 }
 #h_book2 input{
+    border-radius: 4px;
     opacity:1;
     display: inline-block;
-    width :100%;
+    width :39%;
     height: 30px;
     border:none;
-    margin:5px;
+  
+   
 }
 #h_book2 textarea{
-    width :90%;
+    width :84%;
     height: 200px;
+    border-radius: 4px;
+    color:black;
+    padding:3%
 }
 #h_book2 [type=submit]{
     width :30%;
+    display: inline-block;
+    margin:0px;
+    height: 45px;
+    background-color: rgba(61, 61, 61, 1);
+    padding:0px;
+    color:white;  
+}
+#h_book2 [type=submit]:hover{
+    width :30%;
+    display: inline-block;
+    margin:0px;
+    height: 45px;
+    
+    background-color: white;
+    padding:0px;
+    color:black;  
+}
+#h_aline{
+    height : 15px;
 }
 
 #h_high_quality{
