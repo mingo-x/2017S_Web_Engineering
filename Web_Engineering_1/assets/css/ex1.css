@@ -445,27 +445,27 @@ body {
 ********************************
 */
 @media screen and (min-width: 1024px) {
-    body {
-        /*background-color: lightgreen;*/
-    }
+	body {
+		/*background-color: lightgreen;*/
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        /*background-color: red;*/
-    }
+	body {
+		/*background-color: red;*/
+	}
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        /*background-color: blue;*/
-    }
+	body {
+		/*background-color: blue;*/
+	}
 }
 
 @media screen and (max-width: 479px) {
-    body {
-        /*background-color: yellow;*/
-    }
+	body {
+		/*background-color: yellow;*/
+	}
 }
 
 .back-grey {
@@ -560,60 +560,71 @@ body {
 	clear: both;
 }
 
-.event-header{
-	text-align: center;
-	font-size: 15pt;
-	font-weight: bold;
-}
 
-.events{
-	text-align: center;
-}
+/*
+Li Zuoyue Modify Begin
+*/
 
-.event {
-	display: inline-block;
-	width: 20%;
-	height: 330px;
-	text-align: center;
-	margin:15px;
-	vertical-align: top;
-}
+@media screen and (min-width: 768px) {
 
-.event img {
-	height: 150px;
-	max-width: 150px;
-	border: 1px solid white;
-}
+	.event-header{
+		text-align: center;
+		font-size: 2.5vw;
+		font-weight: bold;
+	}
 
-.event a{
-	text-decoration: none;
-	color: white;
-}
+	.events{
+		text-align: center;
+	}
 
-.event a h3{
-	font-size: 15pt;
-}
+	.event {
+		display: inline-block;
+		width: 20vw;
+		text-align: center;
+		margin: 3vw;
+		vertical-align: top;
+	}
 
-.event a h2{
-	font-size: 10pt;
-}
+	.event img {
+		height: 12vw;
+		width: 12vw;
+		border: 0.1vw solid white;
+	}
 
-.event p a{
-	border-bottom: 1px dashed white;
-	font-weight: bold;
-}
+	.event a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.event a h3{
+		font-size: 2vw;
+	}
+
+	.event a h2{
+		font-size: 1.5vw;
+	}
+
+	.event p {
+		font-size: 1vw;
+		line-height: 1.8vw;
+	}
+
+	.event p a{
+		border-bottom: 0.1vw dashed white;
+		font-weight: bold;
+	}
 
 .past-event {
 	display: inline-block;
-	width: 20%;
+	width: 15vw;
 	text-align: center;
-	margin:15px;
+	margin: 2vw;
 }
 
 .past-event img {
-	height: 70px;
-	max-width: 70px;
-	border: 1px solid white;
+	height: 6vw;
+	max-width: 6vw;
+	border: 0.1vw solid white;
 }
 
 .past-event a{
@@ -622,23 +633,118 @@ body {
 }
 
 .past-event a h3{
-	font-size: 15pt;
+	font-size: 1.5vw;
 }
 
 .past-event a h2{
-	font-size: 10pt;
+	font-size: 1vw;
 }
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.event-header{
+		text-align: center;
+		font-size: 2.5vw;
+		font-weight: bold;
+	}
+
+	.events{
+		text-align: center;
+	}
+
+	.event {
+		display: inline-flex;
+		width: 80vw;
+		margin: 0vw;
+		text-align: center;
+		vertical-align: bottom;
+	}
+
+	.event-name-time {
+		width: 100vw;
+		margin: 3vw;
+		vertical-align: center;
+	}
+
+	.event img {
+		height: 18vw;
+		width: 18vw;
+		border: 0.1vw solid white;
+		margin: 4vw;
+		vertical-align: center;
+	}
+
+	.event a {
+		text-decoration: none;
+		color: white;
+		margin: 4vw;
+		width: 5vw;
+	}
+
+	.event a h3{
+		margin: 0vw;
+		font-size: 2vw;
+	}
+
+	.event a h2{
+		margin: 0vw;
+		font-size: 1.5vw;
+	}
+
+	.event p {
+		font-size: 1vw;
+		line-height: 150%;
+	}
+
+	.event p a{
+		border-bottom: 0.1vw dashed white;
+		font-weight: bold;
+	}
+
+.past-event {
+	display: inline-block;
+	width: 40vw;
+	text-align: center;
+	margin: 2vw;
+}
+
+.past-event img {
+	height: 12vw;
+	max-width: 12vw;
+	border: 0.1vw solid white;
+}
+
+.past-event a{
+	text-decoration: none;
+	color: white;
+}
+
+.past-event a h3{
+	font-size: 1.5vw;
+}
+
+.past-event a h2{
+	font-size: 1vw;
+}
+
+}
+
+/*
+Li Zuoyue Modify End
+*/
 
 .x-button{
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.8);
 	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
-	width: 70px;
-	padding: 15px 50px;
+	font-size: 1.5vw;
+	width: 10vw;
+	padding: 1.5vw 3.5vw;
 	color: white;
-	border: 1px solid;
-	border-radius: 5px;
+	border: 0.1vw solid;
+	border-radius: 0.3vw;
 	margin: 0 auto;
 
 }
