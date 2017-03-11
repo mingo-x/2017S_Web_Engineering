@@ -429,31 +429,36 @@ Huang Jie part end
 Yanping part begin
 */
 @media screen and (min-width: 1024px) {
-    body {
-        /*background-color: lightgreen;*/
+	.back-grey{
+    	background-color: var(--back-grey);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        /*background-color: red;*/
+    .back-grey{
+    	background-color: red;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        /*background-color: blue;*/
+    .back-grey{
+    	background-color: lightblue;
     }
 }
 
 @media screen and (max-width: 479px) {
-    body {
-        /*background-color: yellow;*/
+    .back-grey{
+    	background-color: blue;
     }
 }
 
+.menu{
+	display: flex;
+	flex-direction: row;
+}
+
 .back-grey {
-	background-color: var(--back-grey);
+	/*background-color: var(--back-grey);*/
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin: 0px;
@@ -461,12 +466,14 @@ Yanping part begin
 }
 
 #menu-texts{
-	margin-left: 11%;
-	width: 23%;
+	margin-left: auto;
+	margin-right: 5%;
+	width: 30%;
 	display: inline-block;
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	/*float: right;*/
 }
 
 #menu-texts h2{
@@ -505,7 +512,8 @@ Yanping part begin
 
 #menu-imgs{
 	float: right;
-	margin-right: 11%;
+	margin-left: 5%;
+	margin-right: auto;
 	text-align: right;
 	width: 55%;
 	display: inline-block;
