@@ -6,20 +6,30 @@
 }
 
 /*
-***************************
-*** Zuoyue's Part Begin ***
-***************************
+******************************
+*** Li Zuoyue's Part Begin ***
+******************************
 */
 
 body {
+    
 	margin: 0px 0px 0px 0px;
 	background-color: rgba(255, 255, 255, 1.0);
 	font-family: 'Roboto', sans-serif;
 }
 
+#header {
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 10;
+}
+
 #navigation {
-	padding: 0px 0px 20px 0px;
-	background-color: rgba(248, 248, 248, 1.0);  
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: rgba(248, 248, 248, 1.0);
+	z-index: 9;
 }
 
 #navigation a:link, #navigation a:active, #navigation a:hover, #navigation a:visited {
@@ -39,24 +49,24 @@ body {
 	font-family: 'Kreon';
 	font-size: 24pt;
 	color: black;
-	width: 200px;
-	height: 40px;
+	width: 15%;
+	height: 100%;
 	margin: 0px;
 	border: 0px solid;
-	padding: 0px;
+	padding: 15px 0px 15px 0px;
 }
 
-#navigation img {
+#logo img {
 	position: relative;
-	top: 60px;
-	width: 120px;
+	top: -62px;
+	width: 10%;
 	z-index: 5;
 }
 
 #cover {
-	top : -10px;
-	position: relative;
 	text-align: center;
+	position: relative;
+	top : 70px;
 }
 
 #cover img {
@@ -93,53 +103,58 @@ body {
 }
 
 /*
-*************************
-*** Zuoyue's Part End ***
-*************************
+****************************
+*** Li Zuoyue's Part End ***
+****************************
 */
 
 /*
-Huang Jie's Part Begin
+******************************
+*** Huang Jie's Part Begin ***
+******************************
 */
 
 .h_word h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 50pt;
+	font-size: 7vw;
 	color: rgba(127, 127, 127, 1.0);
 	text-align: center;
 }
 
 .h_word p{
 	font-family: 'Roboto', sans-serif;
-	font-size: 15pt;
+	font-size: 2vw;
 	color: rgba(127, 127, 127, 1.0);
 	text-align: center;
-	padding: 0px 100px 80px 100px;
+	padding: 0px 10% 10% 10%;
 	line-height: 150%;
 }
 
 #h_word_contact  h2{
 	font-family: 'Roboto', sans-serif;
-	font-size: 50pt;
+	font-size: 7vw;
 	color: rgba(127, 127, 127, 1.0);
 	text-align: center;
 }
 
 #h_word_contact p{
 	font-family: 'Roboto', sans-serif;
-	font-size: 15pt;
+	font-size: 2vw;
 	color: rgba(127, 127, 127, 1.0);
 	text-align: center;
-	padding: 0px 100px 40px 100px;
+	padding: 0px 10% 5% 10%;
 	line-height: 150%;
 }
+
 #h_contact_father{
 	text-align:center;
 	margin:0px 0px 60px 0px;
 }
 
 #h_contact {
+  
 	width: 60%;
+	
 	text-align:center;
 	display: inline-block;
 	margin:0;
@@ -147,6 +162,7 @@ Huang Jie's Part Begin
 
 #h_name {
 	float:left;
+	
 }
 
 #h_email {
@@ -155,20 +171,24 @@ Huang Jie's Part Begin
 
 .h_nameemail {
 	display: inline-block;
-	width:47%;  
+	width:47%; 
+	
 }
 
 .h_nameemail input{
+
+    display: inline;
 	font-family: 'Roboto', sans-serif;
+	
 	width: 100%;
-	height: 40px;
+	height: 8vh;
 	border-radius: 4px;
-	font-size: 15pt;
+	font-size: 2vw;
 	background-color: rgba(248, 248, 248, 1);
 	border-width:1px;
 	border-color : rgba(230, 230, 230, 1);
 	border-style:solid;
-	padding-left : 10px;
+	padding-left : 7%;
 }
 
 #h_message{
@@ -177,35 +197,35 @@ Huang Jie's Part Begin
 }
 
 #h_message textarea{
-
 	width :100%;
-	height: 300px;
+	height: 40vh;
 	margin-top:3%;
 	border-radius: 4px;
-	font-size: 15pt;
+	font-size: 2vw;
 	border-width:1px;
 	border-color : rgba(230, 230, 230, 1);
 	font-family: 'Roboto', sans-serif;
 	background-color: rgba(248, 248, 248, 1);
-	padding-left : 10px;
-	padding-top : 10px;
+	padding-left : 3%;
+	padding-top : 3%;
 }
-#h_sendreset{
 
+#h_sendreset{
 	padding:0px;
 }
+
 #h_sendreset li{
 	display: inline-block;;
 	width : 30%;
-	margin: 0px 5px 0px 5px;
+	margin: 0px 1.5% 0px 1.5%;
 	padding:0px;
-
 }
+
 #h_sendreset input{
 	display: inline-block;
 	margin:0px;
 	width :100%;
-	height: 45px;
+	height: 8vh;
 	border:1px;
 	border-color:rgba(230, 230, 230, 1);
 	border-radius: 4px;
@@ -214,11 +234,12 @@ Huang Jie's Part Begin
 	color:rgba(200, 200, 200, 1);
 	border-style: solid;
 }
+
 #h_sendreset input:hover{
 	display: inline-block;
 	margin:0px;
 	width :100%;
-	height: 45px;
+	height: 8vh;
 	border:1px;
 	border-color:rgba(230, 230, 230, 1);
 	border-radius: 4px;
@@ -236,6 +257,7 @@ Huang Jie's Part Begin
 	text-align:center;
 
 }
+
 #h_opening_hour_contracts div{
 	margin: 0px 30px 0px 30px;
 	display: inline-block;
@@ -252,11 +274,12 @@ Huang Jie's Part Begin
 	text-align: center;
 	color: rgba(127, 127, 127, 1.0);
 }
+
 #h_copy li{
 	display: inline-block;
 	text-align: center;
 	padding: 0;
-	color: ;
+	color: rgba(127, 127, 127, 1.0);
 }
 
 #h_book {
@@ -269,7 +292,6 @@ Huang Jie's Part Begin
 	font-family: 'Roboto', sans-serif;
 }
 
-
 #h_book2{
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -278,7 +300,6 @@ Huang Jie's Part Begin
 	margin:0;
 	text-align:center;
 }
-
 
 #h_namephone{
 	display: inline-block;
@@ -289,7 +310,6 @@ Huang Jie's Part Begin
 	display: inline-block;
 	width:100%
 }
-
 
 #h_name2{
 	float:left;
@@ -324,37 +344,39 @@ Huang Jie's Part Begin
 	border:1px;
 	text-shadow: 2px 2px 2px #000000;
 }
+
 #h_book2 input{
 	border-radius: 4px;
 	opacity:1;
 	display: inline-block;
 	width :39%;
-	height: 30px;
+	height: 6vh;
 	border:none;
-
-
 }
+
 #h_book2 textarea{
 	width :84%;
-	height: 200px;
+	height: 40vh;
 	border-radius: 4px;
 	color:black;
 	padding:3%
 }
+
 #h_book2 [type=submit]{
 	width :30%;
 	display: inline-block;
 	margin:0px;
-	height: 45px;
+	height: 8vh;
 	background-color: rgba(61, 61, 61, 1);
 	padding:0px;
 	color:white;  
 }
+
 #h_book2 [type=submit]:hover{
 	width :30%;
 	display: inline-block;
 	margin:0px;
-	height: 45px;
+	height: 8vh;
 
 	background-color: white;
 	padding:0px;
@@ -362,7 +384,7 @@ Huang Jie's Part Begin
 }
 
 #h_aline{
-	height : 15px;
+	height: 3vh;
 }
 
 #h_high_quality{
@@ -373,6 +395,10 @@ Huang Jie's Part Begin
 	width: 100%;
 	text-align: center;
 	background-size: 150%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #h_high_quality h2{
