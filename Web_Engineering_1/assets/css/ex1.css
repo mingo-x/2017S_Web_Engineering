@@ -421,12 +421,17 @@ body {
 	padding: 0px 100px 80px 100px;
 	line-height: 150%;
 }
-/*-------------------------
-Huang Jie part end
+
+/*
+****************************
+*** Huang Jie's Part End ***
+****************************
 */
 
-/*-------------------------
-Yanping part begin
+/*
+********************************
+*** Xie Yanping's Part Begin ***
+********************************
 */
 @media screen and (min-width: 1024px) {
     body {
@@ -631,6 +636,9 @@ Yanping part begin
 	text-decoration: none;
 	color: white;
 }
-/*-------------------------
-Yanping part end
+
+/*
+******************************
+*** Xie Yanping's Part End ***
+******************************
 */
