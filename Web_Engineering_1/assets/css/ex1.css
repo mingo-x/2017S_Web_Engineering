@@ -490,7 +490,7 @@ body {
 
 .back-grey {
 	/*background-color: var(--back-grey);*/
-	display: flex;
+	display: inline-block;
 	flex-direction: row;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -589,7 +589,6 @@ body {
 .x-clear {
 	clear: both;
 }
-
 
 /*
 Li Zuoyue Modify Begin
