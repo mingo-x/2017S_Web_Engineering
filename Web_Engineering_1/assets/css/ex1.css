@@ -549,7 +549,7 @@ Huang Jie part end
 
 .back-grey {
 	/*background-color: var(--back-grey);*/
-	display: inline-block;
+	display: flex;
 	flex-direction: row;
 	padding-top: 30px;
 	padding-bottom: 30px;
