@@ -526,6 +526,9 @@ body {
 	}
 	#menu-texts a{
 		font-size: 12pt;
+		width: 30%;
+		margin: 0 auto;
+		padding: 1em 2em;
 	}
 	#menu-texts h3{
 		font-size: 10pt;
@@ -562,6 +565,9 @@ body {
 	}
 	#menu-texts a{
 		font-size: 11pt;
+		width: 30%;
+		margin: 0 auto;
+		padding: 1em 2em;
 	}
 	#menu-texts h3{
 		font-size: 10pt;
@@ -597,11 +603,17 @@ body {
 		font-size: 20pt;
 	}
 	#menu-texts a{
-		font-size: 13pt;
-
+		font-size: 14pt;
+		min-height: 4vw;
+		width: 24%;
+		margin: 0;
+		/*padding: 2% 4%;*/
 	}
 	#menu-texts h3{
 		font-size: 12pt;
+	}
+	#menu-choise{
+		max-height: 8vw;
 	}
 }
 
@@ -643,15 +655,14 @@ body {
 }
 
 #menu-texts a{
-	display: block;
+	display: flex;
+	justify-content:center;
+    align-content:center;
+    flex-direction:column;
 	border: 1px solid white;
-	width: 30%;
-	margin: 0 auto;
-	padding: 1em 2em;
 	border-radius: 4px;
 	text-decoration: none;
 	color: white;
-	/*background-color: var(--back-grey);*/
 }
 
 #menu-texts a:visited, #menu-texts a:hover, #menu-texts a:active{
@@ -685,6 +696,11 @@ body {
 #menu-choise{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
+	/*text-align: center;*/
+	align-content: center;
+	justify-content: center;
+	/*flex-grow: 1;*/
 }
 
 .menu-img-title a{
