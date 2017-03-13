@@ -509,6 +509,7 @@ body {
 	}
 	#menu-texts{
 		margin-right: 4%;
+		width: 30%;
 	}
 	#justify{
 		min-width: 320px;
@@ -526,6 +527,9 @@ body {
 	#menu-texts a{
 		font-size: 12pt;
 	}
+	#menu-texts h3{
+		font-size: 10pt;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -540,6 +544,7 @@ body {
 	#menu-texts{
 		margin-right: 1%;
 		min-width: 280px;
+		width: 30%;
 	}
 	#justify{
 		font-size: 11pt;
@@ -557,6 +562,9 @@ body {
 	}
 	#menu-texts a{
 		font-size: 11pt;
+	}
+	#menu-texts h3{
+		font-size: 10pt;
 	}
 }
 
@@ -570,12 +578,13 @@ body {
 		height: 20vw;
 	}
 	#menu-texts{
-		margin-right: 1%;
+		margin: auto;
+		width: 80%;
 		min-width: 280px;
 	}
 	#justify{
-		font-size: 11pt;
-		min-width: 270px;
+		font-size: 13pt;
+		/*min-width: 400px;*/
 	}
 	#menu-imgs{
 		max-width: 60vw;
@@ -585,10 +594,14 @@ body {
 		font-size: 12pt;
 	}
 	#menu-texts h2{
-		font-size: 16pt;
+		font-size: 20pt;
 	}
 	#menu-texts a{
-		font-size: 11pt;
+		font-size: 13pt;
+
+	}
+	#menu-texts h3{
+		font-size: 12pt;
 	}
 }
 
@@ -619,14 +632,9 @@ body {
 }
 
 #menu-texts{	
-	width: 30%;
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-}
-
-#menu-texts h3{
-	font-size: 10pt;
 }
 
 #justify{
@@ -672,6 +680,11 @@ body {
 	width: 300px;
 	height: 2em;
 	text-align: left;
+}
+
+#menu-choise{
+	display: flex;
+	flex-direction: column;
 }
 
 .menu-img-title a{
