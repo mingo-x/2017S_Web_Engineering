@@ -458,7 +458,6 @@ body {
 	height: 3vw;
 }
 
-<<<<<<< HEAD
 #h_high_quality{
 	background-image: url(../../images/small1.jpg);
 	background-size: 100%;
@@ -488,14 +487,10 @@ body {
 	padding: 0px 100px 80px 100px;
 	line-height: 150%;
 }
-/*-------------------------
-Huang Jie part end
-=======
 /*
 ****************************
 *** Huang Jie's Part End ***
 ****************************
->>>>>>> b19fedaddd1763c5e716d3ca7484c3aba9575496
 */
 
 /*
@@ -557,6 +552,15 @@ Huang Jie part end
 	color: white;
 	justify-content: center;
 }
+
+.back-grey1 {
+	background-color: var(--back-grey);
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	margin: 0px;
+ 	color: white;
+}
+
 
 #menu-texts{
 	/*margin-left: auto;*/
