@@ -512,17 +512,51 @@ body {
 	}
 	#justify{
 		min-width: 320px;
+		font-size: 12pt;
+	}
+	#menu-imgs{
+		max-width: 620px;
+	}
+	#menu-texts h2{
+		font-size: 18pt;
+	}
+	.menu-img-title a{
+		font-size: 13pt;
+	}
+	#menu-texts a{
+		font-size: 12pt;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .back-grey{
-    	background-color: red;
+    	background-color: var(--back-grey);
     }
     #menu-imgs img{
 		border-radius: 1vw;
-		max-width: 2vw;
-		height: 16vw;
+		max-width: 27vw;
+		height: 20vw;
+	}
+	#menu-texts{
+		margin-right: 1%;
+		min-width: 280px;
+	}
+	#justify{
+		font-size: 11pt;
+		min-width: 270px;
+	}
+	#menu-imgs{
+		max-width: 60vw;
+		min-width: 460px;
+	}
+	.menu-img-title a{
+		font-size: 12pt;
+	}
+	#menu-texts h2{
+		font-size: 16pt;
+	}
+	#menu-texts a{
+		font-size: 11pt;
 	}
 }
 
@@ -530,6 +564,32 @@ body {
     .back-grey{
     	background-color: lightblue;
     }
+    #menu-imgs img{
+		border-radius: 1vw;
+		max-width: 27vw;
+		height: 20vw;
+	}
+	#menu-texts{
+		margin-right: 1%;
+		min-width: 280px;
+	}
+	#justify{
+		font-size: 11pt;
+		min-width: 270px;
+	}
+	#menu-imgs{
+		max-width: 60vw;
+		min-width: 460px;
+	}
+	.menu-img-title a{
+		font-size: 12pt;
+	}
+	#menu-texts h2{
+		font-size: 16pt;
+	}
+	#menu-texts a{
+		font-size: 11pt;
+	}
 }
 
 @media screen and (max-width: 479px) {
@@ -538,14 +598,11 @@ body {
     }
 }
 
-#menu{
-	
-}
-
 .back-grey {
 	/*background-color: var(--back-grey);*/
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin: 0px;
@@ -561,21 +618,11 @@ body {
  	color: white;
 }
 
-
-#menu-texts{
-	/*margin-left: auto;*/
-	
+#menu-texts{	
 	width: 30%;
-	min-width: 240px;
-	/*display: inline-block;*/
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	/*float: right;*/
-}
-
-#menu-texts h2{
-	font-size: 18pt;
 }
 
 #menu-texts h3{
@@ -585,7 +632,6 @@ body {
 #justify{
 	text-align:justify;
 	margin: 1vw;
-	font-size: 12pt;
 }
 
 #menu-texts a{
@@ -609,15 +655,7 @@ body {
 }
 
 #menu-imgs{
-	/*float: right;*/
-	/*margin-left: 5%;*/
-	/*margin-right: auto;*/
 	text-align: right;
-	max-width: 620px;
-	/*width: 60%;*/
-	/*display: inline-block;*/
-	/*display: flex;*/
-	/*flex-direction: row;*/
 }
 
 .menu-img{
@@ -626,12 +664,6 @@ body {
 	overflow: hidden;
 	position: relative;
 }
-
-/*#menu-imgs img{
-	border-radius: 1vw;
-	max-width: 22vw;
-	height: 16vw;
-}*/
 
 .menu-img-title{
 	background-color: rgba(0,0,0,0.8);
