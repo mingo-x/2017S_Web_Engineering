@@ -643,11 +643,6 @@ body {
 ********************************
 */
 @media screen and (min-width: 1024px) {
-    #menu-imgs img{
-		border-radius: 10px;
-		max-width: 280px;
-		height: 200px;
-	}
 	#menu-texts{
 		margin-right: 4%;
 		width: 30%;
@@ -659,6 +654,13 @@ body {
 	#menu-imgs{
 		max-width: 620px;
 		justify-content: flex-end;
+	}
+	.menu-img{
+		max-width: 280px;
+		height: 200px;
+	}
+	#menu-imgs img{
+		height: 200px;
 	}
 	#menu-texts h2{
 		font-size: 18pt;
@@ -681,12 +683,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    #menu-imgs img{
-		border-radius: 1vw;
-		max-width: 27vw;
-		height: 20vw;
-	}
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
 	#menu-texts{
 		margin-right: 1%;
 		min-width: 280px;
@@ -700,6 +697,15 @@ body {
 		max-width: 60vw;
 		min-width: 460px;
 		justify-content: flex-end;
+	}
+	.menu-img{
+		max-width: 27vw;
+		height: 20vw;
+	}
+	#menu-imgs img{
+		/*border-radius: 1vw;*/
+		/*max-width: 27vw;*/
+		height: 20vw;
 	}
 	.menu-img-title{
 		bottom: 3vw;
@@ -736,9 +742,12 @@ body {
 		width: 80%;
 		justify-content: space-between;
 	}
-	#menu-imgs img{
-		border-radius: 1vw;
+	.menu-img{
 		max-width: 34.5vw;
+		height: 24vw;
+	}
+	#menu-imgs img{
+		/*border-radius: 1vw;*/
 		height: 24vw;
 	}
 	.menu-img-title{
@@ -780,12 +789,16 @@ body {
 	#menu-imgs{
 		margin-top: 5px;
 		width: 75%;
+		min-width: 280px;
 		justify-content: space-between;
 	}
+	.menu-img{
+		height: 52.5vw;
+	}
 	#menu-imgs img{
-		border-radius: 1vw;
-		max-width: 100%;
-		height: 50vw;
+		/*border-radius: 1vw;*/
+		/*max-width: 100%;*/
+		height: 52.5vw;
 	}
 	.menu-img-title{
 		bottom: 6vw;
@@ -876,6 +889,7 @@ body {
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
+	border-radius: 1vw;
 }
 
 .menu-img-title{
