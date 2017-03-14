@@ -793,12 +793,12 @@ body {
 		justify-content: space-between;
 	}
 	.menu-img{
-		height: 52.5vw;
+		height: 55vw;
 	}
 	#menu-imgs img{
 		/*border-radius: 1vw;*/
 		/*max-width: 100%;*/
-		height: 52.5vw;
+		height: 55vw;
 	}
 	.menu-img-title{
 		bottom: 6vw;
