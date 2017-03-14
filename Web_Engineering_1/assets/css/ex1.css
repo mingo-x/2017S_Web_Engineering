@@ -64,11 +64,7 @@ body {
 #cover {
 	text-align: center;
 	position: relative;
-<<<<<<< HEAD
 	top : 11vw
-=======
-	top: 5vw;
->>>>>>> b19fedaddd1763c5e716d3ca7484c3aba9575496
 }
 
 #cover img {
@@ -119,6 +115,7 @@ body {
 ******************************
 */
 
+/*word h2 and p*/
 .h_word h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 6vw;
@@ -137,6 +134,8 @@ body {
 	line-height: 150%;
 }
 
+
+/*high_quality*/
 #h_high_quality{
 	background-image: url(../../images/small1.jpg);
 	background-size: 100%;
@@ -174,6 +173,23 @@ body {
 
 
 
+/*contact*/
+
+@media screen and (min-width: 769px){
+    #h_contact{
+       width: 60%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #h_contact{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 479px) {
+    #h_contact{
+        width: 80%;
+    }
+}
 
 #h_word_contact h2 {
 	font-family: 'Roboto', sans-serif;
@@ -197,17 +213,13 @@ body {
 }
 
 #h_contact {
-
-	width: 60%;
-	
 	text-align:center;
 	display: inline-block;
 	margin:0;
 }
 
 #h_name {
-	float:left;
-	
+	float:left;	
 }
 
 #h_email {
@@ -268,6 +280,7 @@ body {
 
 #h_sendreset input{
 	display: inline-block;
+	font-size:2vw;
 	margin:0px;
 	width :100%;
 	height: 6vw;
@@ -295,57 +308,167 @@ body {
 }
 
 
-#f_h_opening_hour_contracts{
-    text-align:center;
+
+
+
+/*opennging hour*/
+@media screen and (min-width: 1024px) {
+    #f_h_opening_hour_contracts{
+        text-align:center;
+    }
+    
+    #h_opening_hour_contracts{
+    	color: rgba(127, 127, 127, 1.0);
+    	margin-top: 8vw;
+    	display: inline-block;
+    	width :50%;
+    	text-align:center;
+    }
+    #h_opening_hour_contracts div{
+    	margin: 0px 0vw 0px 0vw;
+    	display: inline-block;
+    	width :40%;
+    	text-align: center;
+    }
+    #h_l_opening {
+        float : left;
+    }
+    #h_l_contact {
+        float : right;
+    }
+    #h_opening_hour_contracts h2{
+    	text-align: center;
+    	font-size:3vw;
+    }
+    
+    #h_opening_hour_contracts p{
+    	text-align: center;
+    	font-size:1.5vw;
+    }
+}
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+    #f_h_opening_hour_contracts{
+        text-align:center;
+    }
+    
+    #h_opening_hour_contracts{
+    	color: rgba(127, 127, 127, 1.0);
+    	margin-top: 8vw;
+    	display: inline-block;
+    	width :60%;
+    	text-align:center;
+    }
+    #h_opening_hour_contracts div{
+    	margin: 0px 0vw 0px 0vw;
+    	display: inline-block;
+    	width :40%;
+    	text-align: center;
+    }
+    #h_l_opening {
+        float : left;
+    }
+    #h_l_contact {
+        float : right;
+    }
+    #h_opening_hour_contracts h2{
+    	text-align: center;
+    	font-size:3.5vw;
+    }
+    
+    #h_opening_hour_contracts p{
+    	text-align: center;
+    	font-size:2vw;
+    }
+}
+@media screen and (min-width: 480px)  and (max-width: 768px){
+    #f_h_opening_hour_contracts{
+        text-align:center;
+    }
+    
+    #h_opening_hour_contracts{
+    	color: rgba(127, 127, 127, 1.0);
+    	margin-top: 8vw;
+    	display: inline-block;
+    	width :60%;
+    	text-align:center;
+    }
+    #h_opening_hour_contracts div{
+    	margin: 0px 0vw 0px 0vw;
+    	display:inline-block;
+    	width :60%;
+    	text-align: center;
+    }
+    #h_l_opening {
+        margin:0px;
+        padding:0px;
+        border:0px;
+    }
+    #h_l_contact {
+         margin:0px;
+    }
+    #h_opening_hour_contracts h2{
+    	text-align: center;
+    	font-size:5vw;
+    }
+    
+    #h_opening_hour_contracts p{
+    	text-align: center;
+    	font-size:3vw;
+    	margin:0px;
+    }
+}
+@media screen and (max-width: 479px)  {
+    #f_h_opening_hour_contracts{
+        text-align:center;
+    }
+    
+    #h_opening_hour_contracts{
+    	color: rgba(127, 127, 127, 1.0);
+    	margin-top: 8vw;
+    	display: inline-block;
+    	width :60%;
+    	text-align:center;
+    }
+    #h_opening_hour_contracts div{
+    	margin: 0px 0vw 0px 0vw;
+    	display:inline-block;
+    	width :80%;
+    	text-align: center;
+    }
+    
+    #h_l_contact {
+         margin:0px;
+    }
+    #h_opening_hour_contracts h2{
+    	text-align: center;
+    	
+    	font-size:5vw;
+    }
+    
+    #h_opening_hour_contracts p{
+    	text-align: center;
+    	margin:0px;
+    	font-size:3vw;
+    }
 }
 
-#h_opening_hour_contracts{
-	color: rgba(127, 127, 127, 1.0);
-	margin-top: 8vw;
-	display: inline-block;
-	width :50%;
-	text-align:center;
 
+/*booking*/
+@media screen and (min-width: 769px){
+    #h_book2{
+        width: 40%;
+    }
 }
-
-#h_opening_hour_contracts div{
-	margin: 0px 0vw 0px 0vw;
-	display: inline-block;
-	width :40%;
-	text-align: center;
-	
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #h_book2{
+        width: 60%;
+    }
 }
-
-#h_l_opening {
-    float : left;
+@media screen and (max-width: 479px) {
+    #h_book2{
+        width: 80%;
+    }
 }
-#h_l_contact {
-    float : right;
-}
-
-#h_opening_hour_contracts h2{
-	text-align: center;
-	font-size:3vw;
-}
-
-#h_opening_hour_contracts p{
-	text-align: center;
-	font-size:1.5vw;
-}
-
-#h_copy {
-	padding: 0;
-	text-align: center;
-	color: rgba(127, 127, 127, 1.0);
-}
-
-#h_copy li{
-	display: inline-block;
-	text-align: center;
-	padding: 0;
-	color: rgba(127, 127, 127, 1.0);
-}
-
 #h_book {
 	background-image: url(../../images/book-table.jpg);
 	background-size: 100%;
@@ -364,7 +487,7 @@ body {
 #h_book2{
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 40%;
+	
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	text-align:center;
@@ -457,6 +580,27 @@ body {
 #h_aline{
 	height: 3vw;
 }
+
+
+/*copy*/
+#h_copy {
+	padding: 0;
+	text-align: center;
+	color: rgba(127, 127, 127, 1.0);
+	padding: 0;
+}
+#h_copy ul{
+    padding: 0;
+}
+
+#h_copy li{
+	display: inline-block;
+	font-size:1.5vw;
+	text-align: center;
+	padding: 0;
+	color: rgba(127, 127, 127, 1.0);
+}
+
 
 #h_high_quality{
 	background-image: url(../../images/small1.jpg);
