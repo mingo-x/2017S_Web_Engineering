@@ -1018,13 +1018,14 @@ Li Zuoyue Modify Begin
 		width: 80vw;
 		margin: 0vw;
 		text-align: center;
-		vertical-align: bottom;
+		vertical-align: middle;
 	}
 
 	.event-name-time {
 		width: 100vw;
 		margin: 3vw;
-		vertical-align: center;
+		text-align: center;
+		vertical-align: middle;
 	}
 
 	.event img {
@@ -1032,7 +1033,7 @@ Li Zuoyue Modify Begin
 		width: 18vw;
 		border: 0.1vw solid white;
 		margin: 4vw;
-		vertical-align: center;
+		vertical-align: middle;
 	}
 
 	.event a {
@@ -1040,6 +1041,8 @@ Li Zuoyue Modify Begin
 		color: white;
 		margin: 4vw;
 		width: 5vw;
+		text-align: center;
+		vertical-align: middle;
 	}
 
 	.event a h3{
