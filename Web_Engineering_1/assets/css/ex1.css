@@ -73,6 +73,10 @@ body {
 		top: 9vw;
 	}
 
+	#empty {
+		margin: 0% 0% 5vw 0%;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -127,13 +131,13 @@ body {
 	#logo img {
 		position: relative;
 		top: -8vw;
-		width: 10%;
+		width: 15%;
 		z-index: 5;
 	}
 
 	#cover {
 		text-align: center;
-		margin: 9vw 0vw;
+		margin: 9vw 0vw 0vw 0vw;
 	}
 
 	#title{
@@ -174,10 +178,6 @@ body {
 	color: white;
 	border: 0.1vw solid;
 	border-radius: 0.3vw;
-}
-
-#empty {
-	margin: 0% 0% 5vw 0%;
 }
 
 /*
