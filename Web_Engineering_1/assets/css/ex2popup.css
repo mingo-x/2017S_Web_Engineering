@@ -60,23 +60,23 @@
 #modal_title {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    color : rgba(200,200,200,1);
+    color: rgba(127,127,127,1);
     width:50%;
     float:left;
     font-size: 2vw;
     text-align: left;
-    padding: 4%  4% 2%  8%;
+    padding: 4% 4% 2% 10%;
 }
 
 #modal_content{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    color : rgba(200,200,200,1);
+    color : rgba(127,127,127,1);
     width:80%;
     font-size: 1.1vw;
     text-align: left;
-    padding-top:2.5vw;
-    padding-bottom:1vw;
+    padding-top:1.5vw;
+    padding-bottom:2.5vw;
    
 }
 #modal_img{
