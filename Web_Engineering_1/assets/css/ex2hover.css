@@ -1,10 +1,11 @@
 .menu-img-title{
-	transition: top 0.4s ease, background 0.4s ease;
+	transition: top 0.3s ease, background 1.5s ease;
 }
 
 .menu-img-title a{
+	position: absolute;
 	transform-style: preserve-3d;
-	transition: bottom 0.4s ease, left 0.4s ease, transform 2s ease;
+	transition: top 0.3s ease, left 0.3s ease, transform 2s ease;
 	bottom: 0.5em; 
 	left: 1em; 
 	white-space: nowrap;
