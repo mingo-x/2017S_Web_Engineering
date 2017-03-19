@@ -1,3 +1,40 @@
+.menu-img-title{
+	transition: top 0.4s ease, background 0.4s ease;
+}
+
+.menu-img-title a{
+	transform-style: preserve-3d;
+	transition: bottom 0.4s ease, left 0.4s ease, transform 2s ease;
+	bottom: 0.5em; 
+	left: 1em; 
+	white-space: nowrap;
+	transform: translate(0, 0) rotate3d(0,1,0,0deg);
+}
+
 .menu-img:hover .menu-img-title{
-	background: linear-gradient(#FF6464, #000000);
+	transition: top 0.5s ease;
+	background: linear-gradient(rgba(255,100,100,1), rgba(0,0,0,0));
+	height: 100%;
+	border-radius: 1vw;
+	padding: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.menu-img:hover .menu-img-title a{
+	transition: left 0.5s ease, transform 1.5s ease;
+	position: absolute;
+	bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate3d(0,1,0,360deg);
+    white-space: nowrap;
+	border-bottom: 0;
+	/*animation: rotate 1s linear;*/
+}
+
+@keyframes rotate {
+	from {bottom: 2.5em; left: 1em; transform: rotate3d(0,1,0,0deg);}
+	5% {bottom: 1em; left: 1em; transform: translate(0, 0) rotate3d(0,1,0,0deg);}
+    50% {bottom: 50%; left: 50%; transform: translate(-50%, 50%)  rotate3d(0,1,0,180deg);}
+    to {transform: translate(-50%, 50%) rotate3d(0,1,0,360deg);}
 }
