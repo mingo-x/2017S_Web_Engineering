@@ -17,6 +17,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+figure {
+	margin: 0;
+}
+
 @media screen and (min-width: 768px) {
 
 	.navigation {
@@ -754,12 +758,11 @@ body {
 	#menu-texts h2{
 		font-size: 18pt;
 	}
-	.menu-img-title{
-		/*bottom: 2em;*/
+	.menu-img figcaption{
 		top: 9.5em;
 		height: 2em;
 	}
-	.menu-img-title a{
+	.menu-img figcaption a{
 		font-size: 13pt;
 	}
 	#menu-texts a{
@@ -797,12 +800,11 @@ body {
 		/*max-width: 27vw;*/
 		height: 20vw;
 	}
-	.menu-img-title{
-		/*bottom: 3vw;*/
+	.menu-img figcaption{
 		top: 14vw;
 		height: 2em;
 	}
-	.menu-img-title a{
+	.menu-img figcaption a{
 		font-size: 12pt;
 	}
 	#menu-texts h2{
@@ -841,12 +843,11 @@ body {
 		/*border-radius: 1vw;*/
 		height: 24vw;
 	}
-	.menu-img-title{
-		/*bottom: 4vw;*/
+	.menu-img figcaption{
 		top: 16vw;
 		height: 5vw;
 	}
-	.menu-img-title a{
+	.menu-img figcaption a{
 		font-size: 2.5vw;
 	}
 	#menu-texts h2{
@@ -892,12 +893,11 @@ body {
 		/*max-width: 100%;*/
 		height: 55vw;
 	}
-	.menu-img-title{
-		/*bottom: 6vw;*/
+	.menu-img figcaption{
 		top: 40vw;
 		height: 8vw;
 	}
-	.menu-img-title a{
+	.menu-img figcaption a{
 		font-size: 4vw;
 	}
 	#menu-texts h2{
@@ -991,7 +991,7 @@ body {
 	border-bottom:1px dashed white;
 }
 
-.menu-img-title{
+.menu-img figcaption{
 	background-color: rgba(0,0,0,0.8);
 	position: absolute;
 	width: 100%;
@@ -999,7 +999,7 @@ body {
 	left: 0;
 }
 
-.menu-img-title a{
+.menu-img figcaption a{
 	position: absolute;
 	left: 1em;
 	bottom: 0.5em;
@@ -1019,6 +1019,12 @@ body {
 	clear: both;
 }
 
+.event-header{
+		text-align: center;
+		font-weight: bold;
+		margin: 1em 0;
+}
+
 /*
 Li Zuoyue Modify Begin
 */
@@ -1026,9 +1032,7 @@ Li Zuoyue Modify Begin
 @media screen and (min-width: 768px) {
 
 	.event-header{
-		text-align: center;
 		font-size: 2.5vw;
-		font-weight: bold;
 	}
 
 	.events{
@@ -1103,9 +1107,7 @@ Li Zuoyue Modify Begin
 @media screen and (max-width: 767px) {
 
 	.event-header {
-		text-align: center;
 		font-size: 6vw;
-		font-weight: bold;
 	}
 
 	.events {
@@ -1118,13 +1120,13 @@ Li Zuoyue Modify Begin
 		padding: 5vw 0vw 5vw 0vw;
 	}
 
-	.event-img {
+	.event figure {
 		display: inline-block;
 		width: 12vw;
 		vertical-align: middle;
 	}
 
-	.event-name-time {
+	.event figcaption {
 		display: inline-block;
 		padding: 0vw 2vw 0vw 3vw;
 		width: 20vw;
@@ -1137,7 +1139,7 @@ Li Zuoyue Modify Begin
 		vertical-align: middle;
 	}
 
-	.event-img img {
+	.event figure img {
 		height: 12vw;
 		width: 12vw;
 		border: 0.1vw solid white;
