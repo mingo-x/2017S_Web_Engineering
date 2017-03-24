@@ -1,36 +1,45 @@
-.menu-img-title{
-	transition: top 0.3s ease, background 1.5s ease;
+.menu-img img{
+	display: table-cell;
 }
 
-.menu-img-title a{
-	position: absolute;
+.menu-img figcaption{
+	display: inline-table;
+	transition: top 0.3s ease, background 1.5s ease;
 	transform-style: preserve-3d;
-	transition: top 0.3s ease, left 0.3s ease, transform 2s ease;
+}
+
+.menu-img figcaption a{
+	z-index: 10;
+	position: absolute;
+	transition: left 0.3s ease, transform 2s ease;
 	bottom: 0.5em; 
 	left: 1em; 
 	white-space: nowrap;
-	transform: translate(0, 0) rotate3d(0,1,0,0deg);
+	transform: rotate3d(0,1,0,0deg);
+	display: table-cell;
 }
 
-.menu-img:hover .menu-img-title{
+.menu-img:hover figcaption{
 	transition: top 0.5s ease;
 	background: linear-gradient(rgba(255,100,100,1), rgba(0,0,0,0));
 	height: 100%;
-	border-radius: 1vw;
 	padding: 0;
+	border-radius: 1vw;
 	bottom: 0;
 	top: 0;
 }
 
-.menu-img:hover .menu-img-title a{
-	transition: left 0.5s ease, transform 1.5s ease;
-	position: absolute;
-	bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%) rotate3d(0,1,0,360deg);
+.menu-img:hover figcaption a{
+	transition: transform 1.5s ease;
+	position: initial;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+    transform: rotate3d(0,1,0,360deg);
     white-space: nowrap;
 	border-bottom: 0;
-	/*animation: rotate 1s linear;*/
+	height: 100%;
+	top: 0;
 }
 
 @keyframes rotate {
