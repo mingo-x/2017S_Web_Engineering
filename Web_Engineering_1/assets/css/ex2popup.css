@@ -57,7 +57,7 @@
 }
 
 
-#modal_title {
+.modal_title {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     color: rgba(127,127,127,1);
@@ -68,7 +68,7 @@
     padding: 4% 4% 2% 10%;
 }
 
-#modal_content{
+.modal_c {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     color : rgba(127,127,127,1);
