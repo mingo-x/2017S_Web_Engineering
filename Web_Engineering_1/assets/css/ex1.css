@@ -962,7 +962,10 @@ figure {
 	color: white;
 }
 
-#menu-texts a:visited, #menu-texts a:hover, #menu-texts a:active{
+#menu-texts a:visited, #menu-texts a:hover, #menu-texts a:active,  #menu-texts a:focus{
+	background-color: #365529;
+}
+#menu-texts .hover1 {
 	background-color: #365529;
 }
 

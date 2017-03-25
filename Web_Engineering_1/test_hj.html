@@ -1,32 +1,53 @@
+<!doctype html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+<script>
+var t=1;
+function changetext(id)
+{
+	
+	t=t+1;
+	if (t % 2==0)
+	{
+		$('#img2').hide();
+		$('#img1').show();
+	}
+	else
+	{
+		$('#img2').show();
+		$('#img1').hide();
+	}
+
+	
+	
+}
+$(document).scroll(function(evt)
+{
+	t=t+1
+	var el = document.getElementById("img1");
+	var viewportOffset = el.getBoundingClientRect();
+// these are relative to the viewport
+	var top = viewportOffset.top;
+	var bo = viewportOffset.bottom;
+	var left = viewportOffset.left;
+	if (t%50==0)
+	alert(top+' '+bo)
+
+});
+</script>
+
+</head>
 
 <html>
-<head>
+	<body>
 
+		<div>
+			<img id = "img3"   height="1000px" src="images/pic01.jpg"  />
+			<img id = "img1"   height="100px" src="images/pic01.jpg"  />
+			<img id = "img2"  height="1000px" src="images/pic02.jpg"  />
+		</div>
+		<button onclick="changetext(this)">test</button>
 
-<link rel="stylesheet" type="text/css" href="assets/css/ex2popup.css" />
-</head>
-<body>
-
-<a href="#id01">OpenModal</a>
-
-<div id="id01" class="modal">
-<div class="modal-dialog">
-<div class="modal-content">
-	<a href="#" class="closebtn">×</a>
-	<div id="modal_title">Bruasda</div>
-	<a href="index.html"><img id="modal_img" src="images/pic06.jpg" alt=""></a>
-	<div id="modal_content">mao dou zhen tm de haochi . wo hao xiangchi a . shenme shihou keyi chi dao ne ?wo ye buzhidao a wo cao 
-	mao dou zhen tm de haochi . wo hao xiangchi a . shenme shihou keyi chi dao ne ?wo ye buzhidao a wo cao 
-	mao dou zhen tm de haochi . wo hao xiangchi a . shenme shihou keyi chi dao ne ?wo ye buzhidao a wo cao 
-	mao dou zhen tm de haochi . wo hao xiangchi a . shenme shihou keyi chi dao ne ?wo ye buzhidao a wo cao </div>
-</div>
-</div>
-</div>
-
-
-
-
-</body>
+	</body>
 </html>
-
-
