@@ -1,15 +1,10 @@
-.menu-img img{
-	display: table-cell;
-}
-
 .menu-img figcaption{
 	display: inline-table;
 	transition: top 0.3s ease, background 1.5s ease;
-	transform-style: preserve-3d;
+	/*transform-style: preserve-3d;*/
 }
 
 .menu-img figcaption a{
-	z-index: 10;
 	position: absolute;
 	transition: left 0.3s ease, transform 2s ease;
 	bottom: 0.5em; 
