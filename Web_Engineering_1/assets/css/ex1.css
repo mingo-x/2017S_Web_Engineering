@@ -164,6 +164,28 @@ figure {
 	border-radius: 0.3vw;
 }
 
+@keyframes moveRight {
+	from {left: -150vw;}
+	to {left: 0vw;}
+}
+
+@keyframes moveUp {
+	from {top: 5vw;}
+	to {top: 0vw;}
+}
+
+#cover_title {
+	animation-name: moveRight;
+	animation-duration: 2s;
+	animation-iteration-count: 4;
+}
+
+#welcome {
+	animation-name: moveUp;
+	animation-duration: 1s;
+	position: relative;
+}
+
 /*
 ****************************
 *** Li Zuoyue's Part End ***
