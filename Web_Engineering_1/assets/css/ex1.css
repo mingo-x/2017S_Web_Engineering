@@ -173,14 +173,14 @@ figure {
 	to {left: 0vw;}
 }
 
+@keyframes moveUp {
+	from {top: 10vw;}
+	to {top: 0vw;}
+}
+
 #cover_title {
 	animation-name: moveRight;
 	animation-duration: 2s;
-}
-
-@keyframes moveUp {
-	from {top: 6vw;}
-	to {top: 0vw;}
 }
 
 #welcome {
@@ -190,9 +190,58 @@ figure {
 	animation-play-state: paused;
 }
 
-#h_high_quality {
+#l_high_quality {
 	animation-name: moveRight;
-	animation-duration: 3s;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#only_best {
+	animation-name: moveRight;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#events {
+	animation-name: moveRight;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#l_events {
+	animation-name: moveUp;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#l_past_events {
+	animation-name: moveRight;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#h_contact {
+	animation-name: moveRight;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#h_book2 {
+	animation-name: moveUp;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+#h_opening_hour_contracts {
+	animation-name: moveRight;
+	animation-duration: 2s;
 	position: relative;
 	animation-play-state: paused;
 }

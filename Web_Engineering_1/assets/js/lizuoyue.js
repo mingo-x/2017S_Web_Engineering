@@ -9,7 +9,7 @@
 // 	);
 // }
 
-function isInViewportVerticalPart(element) {
+function isInPartViewportVertical(element) {
 	var rect = element.getBoundingClientRect();
 	var html = document.documentElement;
 	return (
@@ -24,7 +24,7 @@ function isInViewportVerticalPart(element) {
 $(document).scroll(
 	function() {
 		var ele = document.getElementById("welcome");
-		if (isInViewportVerticalPart(ele)) {
+		if (isInPartViewportVertical(ele)) {
 			ele.style.animationPlayState = "running";
 		}
 	}
@@ -32,9 +32,71 @@ $(document).scroll(
 
 $(document).scroll(
 	function() {
-		var ele = document.getElementById("h_high_quality");
-		if (isInViewportVerticalPart(ele)) {
-			// alert(ele.getBoundingClientRect().bottom)
+		var ele = document.getElementById("l_high_quality");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("only_best");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("events");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("l_events");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("l_past_events");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("h_contact");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("h_book2");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).scroll(
+	function() {
+		var ele = document.getElementById("h_opening_hour_contracts");
+		if (isInPartViewportVertical(ele)) {
 			ele.style.animationPlayState = "running";
 		}
 	}
