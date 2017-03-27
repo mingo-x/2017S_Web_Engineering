@@ -169,12 +169,12 @@ figure {
 }
 
 @keyframes moveRight {
-	from {left: -150vw;}
+	from {left: -100vw;}
 	to {left: 0vw;}
 }
 
 @keyframes moveUp {
-	from {top: 10vw;}
+	from {top: 8vw;}
 	to {top: 0vw;}
 }
 
