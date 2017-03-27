@@ -79,8 +79,9 @@
     padding-bottom:2.5vw;
    
 }
-#modal_img{
-    width : 80%;
+.modal_img{
+    max-width : 80%;
+    
 }
 
 /* The button used to close the modal */
