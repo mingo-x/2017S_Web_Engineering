@@ -24,7 +24,7 @@ function isInViewportVerticalPart(element) {
 $(document).scroll(
 	function() {
 		var ele = document.getElementById("welcome");
-		if (ele.getBoundingClientRect().top >= 0) {
+		if (isInViewportVerticalPart(ele)) {
 			ele.style.animationPlayState = "running";
 		}
 	}
@@ -33,8 +33,8 @@ $(document).scroll(
 $(document).scroll(
 	function() {
 		var ele = document.getElementById("h_high_quality");
-		if (ele.getBoundingClientRect().top >= 0) {
-			alert(ele.getBoundingClientRect().bottom)
+		if (isInViewportVerticalPart(ele)) {
+			// alert(ele.getBoundingClientRect().bottom)
 			ele.style.animationPlayState = "running";
 		}
 	}
