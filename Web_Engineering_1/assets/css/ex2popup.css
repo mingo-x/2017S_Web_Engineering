@@ -80,7 +80,7 @@
    
 }
 .modal_img{
-    max-width : 80%;
+    width : 80%;
     
 }
 
@@ -89,8 +89,8 @@
   display: inline-block;
   text-decoration: none;
   float: right;
-  font-size: 30px;
-  padding-top: 2%;
+  font-size: 4vw;
+  padding-top: 0%;
  
   padding-right:10%;
   font-weight: bold;

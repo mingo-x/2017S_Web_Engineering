@@ -73,7 +73,33 @@ function changemenu(x)
     }
 }
 var p = 2;
+var timenow=0;
+function loopmenu()
+{
+    var el = document.getElementById("menu-choise1");
+    var viewportOffset = el.getBoundingClientRect();
+    var top = viewportOffset.top;
+
+    var el2 = document.getElementById("menu-choise2");
+    var viewportOffset2 = el2.getBoundingClientRect();
+    var top2 = viewportOffset2.top;
+    //alert(top+" "+top2)
+    if (top!=top2) return;
+    timenow++;
+    //if (timenow<5)
+     //   alert(timenow);
+     if (p==2) changemenu(timenow % 4 +1);
+
+    setTimeout("loopmenu()",3000);
+
+}
+
+
 $(document).ready(function(){
+
+    
+   
+    
     
     
     $("#menu-choise1").hover(function(evt){
@@ -108,7 +134,8 @@ $(document).ready(function(){
     {
         p=2;
     });
-    
+    setTimeout("loopmenu()",1000);
+    changemenu(1);
 });
 
 
@@ -125,9 +152,17 @@ $(document).scroll(function(evt)
     if (p==1) return;
     var allh = window.screen.availHeight;
 	t=t+1
-	var el = document.getElementById("menu-choise");
+	var el = document.getElementById("menu-choise1");
 	var viewportOffset = el.getBoundingClientRect();
 	var top = viewportOffset.top;
+
+    var el2 = document.getElementById("menu-choise2");
+    var viewportOffset2 = el2.getBoundingClientRect();
+    var top2 = viewportOffset2.top;
+    //alert(top+" "+top2)
+    if (top==top2) return;
+
+
 	if (top<allh/8)
 	{
 	   changemenu(4);
