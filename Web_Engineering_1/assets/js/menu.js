@@ -34,9 +34,9 @@ function changemenu(x)
 ];
     title = [
     ["Bruschetta with Tomatoes","Green Rolls","Eggplants","Bruschetta","Meatballs","Spicy Beans"],
-    ["pastaBruschetta with Tomatoes","Green Rolls","Eggplants","Bruschetta","Meatballs","Spicy Beans"],
-    ["meatBruschetta with Tomatoes","Green Rolls","Eggplants","Bruschetta","Meatballs","Spicy Beans"],
-    ["dessertBruschetta with Tomatoes","Green Rolls","Eggplants","Bruschetta","Meatballs","Spicy Beans"]
+    ["Penne 1","Spaghetti 1","Spaghetti 2","Penne 2","Penne 3","Spaghetti 3"],
+    ["Fish 1","Fish 2","Elbow","Roasted Duck","Ribs","Beef"],
+    ["Brownie","Cupcake","Little Cake","Cream Cake","Cake Roll","Chocolate"]
       
     ]
     

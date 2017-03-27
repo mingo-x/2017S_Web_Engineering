@@ -782,7 +782,7 @@ figure {
 		justify-content: flex-end;
 	}
 	.menu-img{
-		max-width: 280px;
+		max-width: 265px;
 		height: 200px;
 	}
 	#menu-imgs img{
@@ -869,7 +869,7 @@ figure {
 		justify-content: space-between;
 	}
 	.menu-img{
-		max-width: 34.5vw;
+		max-width: 32vw;
 		height: 24vw;
 	}
 	#menu-imgs img{
@@ -910,7 +910,6 @@ figure {
 	}
 	#justify{
 		font-size: 12pt;
-		/*min-width: 400px;*/
 	}
 	#menu-imgs{
 		margin-top: 5px;
@@ -922,8 +921,6 @@ figure {
 		height: 55vw;
 	}
 	#menu-imgs img{
-		/*border-radius: 1vw;*/
-		/*max-width: 100%;*/
 		height: 55vw;
 	}
 	.menu-img figcaption{
@@ -995,7 +992,7 @@ figure {
 	color: white;
 }
 
-#menu-texts a:visited, #menu-texts a:hover, #menu-texts a:active,  #menu-texts a:focus{
+#menu-texts a:hover{
 	background-color: #365529;
 }
 #menu-texts .hover1 {
@@ -1011,7 +1008,6 @@ figure {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width:100%;
 }
 
 .menu-img{
