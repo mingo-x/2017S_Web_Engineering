@@ -164,26 +164,37 @@ figure {
 	border-radius: 0.3vw;
 }
 
+#cover_book {
+	top: 25vw;
+}
+
 @keyframes moveRight {
 	from {left: -150vw;}
 	to {left: 0vw;}
 }
 
-@keyframes moveUp {
-	from {top: 5vw;}
-	to {top: 0vw;}
-}
-
 #cover_title {
 	animation-name: moveRight;
 	animation-duration: 2s;
-	animation-iteration-count: 4;
+}
+
+@keyframes moveUp {
+	from {top: 6vw;}
+	to {top: 0vw;}
 }
 
 #welcome {
 	animation-name: moveUp;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	position: relative;
+	animation-play-state: paused;
+}
+
+#h_high_quality {
+	animation-name: moveRight;
+	animation-duration: 3s;
+	position: relative;
+	animation-play-state: paused;
 }
 
 /*

@@ -120,7 +120,6 @@ $("#menu-choise1").hover(function(){
     $("#menu-choise1").css("background-color","pink");
 });
 
-
 $(document).scroll(function(evt)
 {
     if (p==1) return;
