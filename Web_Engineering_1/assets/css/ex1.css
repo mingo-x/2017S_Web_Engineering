@@ -827,25 +827,25 @@ figure {
 		font-size: 12pt;
 	}
 	#menu-imgs{
-		max-width: 620px;
+		max-width: 500px;
 		justify-content: flex-end;
 	}
 	.menu-img{
-		max-width: 265px;
-		height: 200px;
+		max-width: 200px;
+		height: 150px;
 	}
 	#menu-imgs img{
-		height: 200px;
+		height: 100%;
 	}
 	#menu-texts h2{
 		font-size: 18pt;
 	}
 	.menu-img figcaption{
-		top: 9.5em;
-		height: 2em;
+		top: 6.5em;
+		height: 1.8em;
 	}
 	.menu-img figcaption a{
-		font-size: 13pt;
+		font-size: 11pt;
 	}
 	#menu-texts a{
 		font-size: 12pt;
@@ -869,25 +869,25 @@ figure {
 		min-width: 270px;
 	}
 	#menu-imgs{
-		max-width: 60vw;
-		min-width: 460px;
+		max-width: 53vw;
+		min-width: 380px;
 		justify-content: flex-end;
 	}
 	.menu-img{
-		max-width: 27vw;
-		height: 20vw;
+		max-width: 23vw;
+		height: 17.5vw;
+		/*min-width: 180px;*/
 	}
 	#menu-imgs img{
-		/*border-radius: 1vw;*/
-		/*max-width: 27vw;*/
-		height: 20vw;
+		height: 100%;
+		
 	}
 	.menu-img figcaption{
-		top: 14vw;
-		height: 2em;
+		top: 12vw;
+		height: 1.8em;
 	}
 	.menu-img figcaption a{
-		font-size: 12pt;
+		font-size: 10.5pt;
 	}
 	#menu-texts h2{
 		font-size: 16pt;
@@ -1019,7 +1019,11 @@ figure {
  	color: white;
 }
 
-#menu-texts{	
+#menu-texts{
+	animation-name: moveUp;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -1053,10 +1057,15 @@ figure {
 }
 
 #menu-imgs{
+	animation-name: moveUp;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
 	text-align: right;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding-top: 4vw;
 }
 
 .menu-img{
