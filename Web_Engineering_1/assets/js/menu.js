@@ -84,11 +84,31 @@ function loopmenu()
     var viewportOffset2 = el2.getBoundingClientRect();
     var top2 = viewportOffset2.top;
     //alert(top+" "+top2)
-    if (top!=top2) return;
-    timenow++;
+
+
+
+    var el3 = document.getElementById("menu-img1");
+    //alert()
+    
+
+    //$("#welcome").attr("width","10px")
+    //alert($("#welcome").attr("width"))
+    //if ($(".modal").attr("display")=="none")
+    
     //if (timenow<5)
-     //   alert(timenow);
-     if (p==2) changemenu(timenow % 4 +1);
+       // alert(($('.modal').css("display")=="none"));
+    pp=true
+    
+    for (i=1;i<=6;i++)
+    {
+        if ($("#"+"id0"+i).css("display")!="none") {pp=false;};
+    }
+
+     if (p==2 && top==top2 && pp  ) 
+     {
+        timenow=(timenow+1)%4;
+        changemenu(timenow % 4 +1);
+     }
 
     setTimeout("loopmenu()",3000);
 
@@ -160,6 +180,16 @@ $(document).scroll(function(evt)
     var viewportOffset2 = el2.getBoundingClientRect();
     var top2 = viewportOffset2.top;
     //alert(top+" "+top2)
+
+    pp=true
+    
+    for (i=1;i<=6;i++)
+    {
+        if ($("#"+"id0"+i).css("display")!="none") {pp=false;};
+    }
+    if (!pp) return;
+
+
     if (top==top2) return;
 
 
