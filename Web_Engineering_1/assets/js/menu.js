@@ -74,6 +74,27 @@ function changemenu(x)
 }
 var p = 2;
 var timenow=0;
+
+
+
+setInterval(function(){
+    pp=true
+    
+    for (i=1;i<=6;i++)
+    {
+        if ($("#"+"id0"+i).css("display")!="none") {pp=false;};
+    }
+   // alert(pp)
+   // return
+    if(!pp){
+        document.documentElement.style.overflow='hidden';}
+    else
+        {document.documentElement.style.overflow='scroll';}
+    
+},100);
+
+
+
 function loopmenu()
 {
     var el = document.getElementById("menu-choise1");
