@@ -48,6 +48,33 @@ $(document).scroll(
 	}
 );
 
+$(document).ready(
+	function() {
+		var ele = document.getElementById("welcome");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).ready(
+	function() {
+		var ele = document.getElementById("l_high_quality");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
+$(document).ready(
+	function() {
+		var ele = document.getElementById("only_best");
+		if (isInPartViewportVertical(ele)) {
+			ele.style.animationPlayState = "running";
+		}
+	}
+);
+
 $(document).scroll(
 	function() {
 		var ele = document.getElementById("menu-texts");
