@@ -97,6 +97,7 @@ setInterval(function(){
 
 function loopmenu()
 {
+
     var el = document.getElementById("menu-choise1");
     var viewportOffset = el.getBoundingClientRect();
     var top = viewportOffset.top;

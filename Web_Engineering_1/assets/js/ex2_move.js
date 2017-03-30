@@ -75,25 +75,25 @@ $(document).ready(
 	}
 );
 
-$(document).scroll(
-	function() {
-		var ele = document.getElementById("menu-texts");
-		console.log(isInPartViewportVertical(ele));
-		if (isInPartViewportVertical(ele)) {
-			ele.style.animationPlayState = "running";
-		}
-	}
-);
+// $(document).scroll(
+// 	function() {
+// 		var ele = document.getElementById("menu-texts");
+// 		console.log(isInPartViewportVertical(ele));
+// 		if (isInPartViewportVertical(ele)) {
+// 			ele.style.animationPlayState = "running";
+// 		}
+// 	}
+// );
 
-$(document).scroll(
-	function() {
-		var ele = document.getElementById("menu-imgs");
-		console.log(isInPartViewportVertical(ele));
-		if (isInPartViewportVertical(ele)) {
-			ele.style.animationPlayState = "running";
-		}
-	}
-);
+// $(document).scroll(
+// 	function() {
+// 		var ele = document.getElementById("menu-imgs");
+// 		console.log(isInPartViewportVertical(ele));
+// 		if (isInPartViewportVertical(ele)) {
+// 			ele.style.animationPlayState = "running";
+// 		}
+// 	}
+// );
 
 $(document).scroll(
 	function() {

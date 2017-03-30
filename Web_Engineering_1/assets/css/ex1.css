@@ -905,10 +905,6 @@ figure {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	#menu-texts{
-		animation-name: moveUp;
-		animation-duration: 2s;
-		position: relative;
-		animation-play-state: paused;
 		margin: auto;
 		width: 80%;
 		min-width: 280px;
@@ -918,10 +914,6 @@ figure {
 		/*min-width: 400px;*/
 	}
 	#menu-imgs{
-		animation-name: moveUp;
-		animation-duration: 2s;
-		position: relative;
-		animation-play-state: paused;
 		width: 80%;
 		justify-content: space-between;
 	}
@@ -961,10 +953,6 @@ figure {
 
 @media screen and (max-width: 479px) {
     #menu-texts{
-    	animation-name: moveUp;
-		animation-duration: 2s;
-		position: relative;
-		animation-play-state: paused;
 		margin: auto;
 		width: 75%;
 		min-width: 280px;
@@ -973,10 +961,6 @@ figure {
 		font-size: 12pt;
 	}
 	#menu-imgs{
-		animation-name: moveUp;
-		animation-duration: 2s;
-		position: relative;
-		animation-play-state: paused;
 		margin-top: 5px;
 		width: 75%;
 		min-width: 280px;
